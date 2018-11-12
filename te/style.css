@@ -7971,8 +7971,8 @@ iframe {
 }
 
 [class*="cell-"] {
-	padding-left: 15px;
-	padding-right: 15px;
+	padding-left: 56px;
+    padding-right: 13px;
 }
 
 html.lt-ie-10 * + .range,
