@@ -10123,6 +10123,8 @@ h6,
 	line-height: 1.5;
 	font-weight: 400;
 	color: #9b9b9b;
+	text-align: -webkit-left;
+    padding-left: 3%;
 }
 
 h6 * + .icon,
@@ -11283,6 +11285,13 @@ fieldset[disabled] .btn-primary {
 		padding-top: 120px;
 		padding-bottom: 120px;
 	}
+}
+@media (min-width: 1024px){
+	.section-md-120 {
+		padding-top: 35px;
+		padding-bottom: 120px;
+	}
+	
 }
 
 @media (min-width: 992px) {
@@ -22171,7 +22180,7 @@ html .page .offset-top-165 {
 		margin-top: 20px;
 	}
 	html .page .offset-lg-top-30 {
-		margin-top: -110px;
+		margin-top: 15px;
 	}
 	html .page .offset-lg-top-35 {
 		margin-top: 35px;

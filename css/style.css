@@ -8169,7 +8169,8 @@ iframe {
 @media (min-width: 1200px) {
 	.shell,
 	.shell-wide {
-		max-width: 1200px;
+		/*max-width: 1200px;  */
+		max-width: 1024px;
 	}
 }
 
@@ -29706,7 +29707,7 @@ html .page .offset-top-50 {
 }
 
 html .page .offset-top-66 {
-	margin-top: 66px;
+	margin-top: 1px;
 }
 
 html .page .offset-top-98 {
