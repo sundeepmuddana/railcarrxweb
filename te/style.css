@@ -1490,6 +1490,14 @@ a:hover, a:focus {
 	color: inherit;
 	text-decoration: underline;
 }
+/* input [type=text],input[type=number]{
+	width:100%;
+	padding: 12px 20px;
+	margin:8px 0;
+	display: inline-block;
+	border:1px solid #ccc;
+	box-sizing: border-box;
+} */
 
 a:focus {
 	outline: thin dotted;
@@ -7954,8 +7962,8 @@ iframe {
 }
 
 .range {
-	margin-left: -15px;
-	margin-right: -15px;
+	margin-left: -10px;
+    margin-right: -55px;
 }
 
 .range > .range {
@@ -25331,6 +25339,7 @@ fieldset[disabled] .box-planning-type-4.active .btn-default {
 	max-height: 100%;
 	overflow-y: auto;
 	overflow-x: hidden;
+	background-color: white;
 }
 
 .rd-navbar-default.rd-navbar-fixed .rd-navbar-mobile-brand {
@@ -25479,7 +25488,7 @@ fieldset[disabled] .box-planning-type-4.active .btn-default {
 }
 
 .rd-navbar-default.rd-navbar-transparent.rd-navbar-fixed .rd-navbar-nav li a, .rd-navbar-default.rd-navbar-dark.rd-navbar-fixed .rd-navbar-nav li a, .rd-navbar-default.rd-navbar-transparent.rd-navbar-fixed .rd-navbar-nav li .responsive-tabs .resp-accordion, .rd-navbar-default.rd-navbar-dark.rd-navbar-fixed .rd-navbar-nav li .responsive-tabs .resp-accordion {
-	color: #fff;
+	color: black;
 }
 
 .rd-navbar-default.rd-navbar-transparent.rd-navbar-fixed .rd-navbar-submenu-toggle, .rd-navbar-default.rd-navbar-dark.rd-navbar-fixed .rd-navbar-submenu-toggle {
@@ -25655,7 +25664,7 @@ fieldset[disabled] .box-planning-type-4.active .btn-default {
 }
 
 .rd-navbar-default.rd-navbar-transparent.rd-navbar-fixed .rd-navbar-panel, .rd-navbar-default.rd-navbar-dark.rd-navbar-fixed .rd-navbar-panel {
-	background: #191919;
+	background: #ffffff;
 	box-shadow: 0 1px 10px 0 rgba(67, 67, 69, 0.3);
 }
 
