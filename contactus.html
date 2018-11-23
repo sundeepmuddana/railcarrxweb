@@ -7,6 +7,7 @@
     <meta charset="utf-8">
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="keywords" content="intense web design multipurpose template html">
     <meta name="date" content="Dec 26">
@@ -30,13 +31,45 @@
     <!-- Style -->
     <link rel="stylesheet" href="te/css/style.css">
     <link rel="stylesheet" href="te/style.css">
+	<style>
+    .my-form {
+        color: #305896;
+    }
+    .my-form .btn-default {
+        background-color: #305896;
+        color: #fff;
+        border-radius: 0;
+    }
+    .my-form .btn-default:hover {
+        background-color: #4498C6;
+        color: #fff;
+    }
+    .my-form .form-control {
+        border-radius: 0;
+    }
+</style>
+
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+<script type="text/javascript">
+    jQuery(function ($) {
+        // Google Maps setup
+        var googlemap = new google.maps.Map(
+            document.getElementById('googlemap'),
+            {
+                center: new google.maps.LatLng(44.5403, -78.5463),
+                zoom: 8,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            }
+        );
+    });
+</script>
 </head>
 
 <body>
     <!-- Page-->
     <div class="page text-center">
         <!-- Page Head-->
-        <header class="page-head slider-menu-position">
+     
             <!-- RD Navbar Transparent-->
             <div class="rd-navbar-wrap" style="height: 106px;/* background:  white; */background-color:  white;">
                 <nav class="rd-navbar rd-navbar-default rd-navbar-transparent" data-md-device-layout="rd-navbar-fixed" data-anchor-offset="20"
@@ -51,9 +84,9 @@
                             </button>
                             <!-- Navbar Brand-->
                             <div class="rd-navbar-brand">
-                                <a href="CeceRailcarrx.html">
-                                        <img width='158' height='48' src='images/RailcarRx_Trademarked.png' alt=''/>
-                                   <!--  <img style='margin-top: -11px;margin-left: 119px;' width='158' height='48' src='images/RailcarRx_Trademarked.png' alt=''/> -->
+                                <a href="#home">
+                                    <!-- <img style='margin-top: -11px;margin-left: 119px;' width='158' height='48' src='images/RailcarRx_Trademarked.png' alt=''/> -->
+                                    <img  width='158' height='48' src='images/RailcarRx_Trademarked.png' alt=''/>
                                 </a>
                             </div>
                         </div>
@@ -62,9 +95,9 @@
                                 <div class="rd-navbar-mobile-scroll">
                                     <!-- Navbar Brand Mobile-->
                                     <div class="rd-navbar-mobile-brand">
-                                        <a href="CeceRailcarrx.html">
-                                                <img width='158' height='48' src='images/RailcarRx_Trademarked.png' alt=''/>
+                                        <a href="#home">
                                             <!-- <img style='margin-top: -11px;margin-left: -17px;' width='158' height='48' src='images/RailcarRx_Trademarked.png' alt=''/> -->
+                                            <img  width='158' height='48' src='images/RailcarRx_Trademarked.png' alt=''/>
                                         </a>
                                     </div>
                                     <div class="form-search-wrap">
@@ -81,10 +114,10 @@
                                         </form>
                                     </div>
                                     <!-- RD Navbar Nav-->
-                                    <ul class="rd-navbar-nav"></ul>
-                                    <ul class="rd-navbar-nav" style="margin-left: -24%; font-weight:600">
+                                    <ul class="rd-navbar-nav">
+                                            <!-- <ul class="rd-navbar-nav" style="margin-left: -24%;"> -->
                                         <li>
-                                            <a href="CeceRailcarrx.html">
+                                            <a href="#home">
                                                 <span class="text-middle" style="color:  black;">Home</span>
                                             </a>
                                         </li>
@@ -163,179 +196,72 @@
                         </div>
                 </nav>
                 </div>
-                <div id="home" data-type="anchor">
-                </div>
         </header>
         <!-- Page Contents-->
         <main class="page-content">
-            <div id="home" data-type="anchor">
-                <!-- style="padding-top: 107px;padding-left: 11%;padding-right: 11%;"> -->
-                <!--  <div class="media rmsblog-p">
-                    <img src="images/blogger/ThinkstockPhotos-491965428-1-e1483046110259.jpg" style="width: 50%;padding-top: 4%;height: 30%;"
-                        alt="">
-                </div> -->
-                <div class="row" style="margin-left: 1%;">
-                    <div class="col-sm-12 col-sm-push-1">
-                        <img src="images/blogger/ThinkstockPhotos-491965428-1-e1483046110259.jpg" style="width: 80%;">
-                    </div>
-                </div>
-            </div>
+           
             <!-- About Us-->
             <div class="shell">
 
-            </div>
+          
+            <img width="1024" height="300" style="align-items: center;margin-left:7%; margin-right: 10%"  src="http://www.railcarrx.com/wp-content/uploads/2015/10/contact-1024x267.png" class="vc_single_image-img attachment-large" alt="" >
             <!-- Contact Us-->
-            <section style="margin-top:2px">
-                <div class="shell-fluid">
-                    <div class="range range-xs-center text-sm-left offset-top-50">
-                        <div class="cell-xs-10 cell-large-8 cell-large-8 cell-xl-6 text-left">
-                            <p style="margin-left:-120px;padding-left:0%;padding-right: 48px">
+			  </div>
+			   <div><h1>Contact Us</h1></div>
+			
+            <section>
+             
+					<div class="container">
+   
+    <br />
+    <div class="row" style="padding:0px 20px">
+         <p style="">
                                 <font color="black">You can contact me any way that is convenient for you. I am available 24/7 via fax, email
                                     or telephone. You can also use a quick contact form located on this page to ask a question
                                     about my services and projects I work on. I would be happy to answer your questions or
                                     offer any help.</font>
                             </p>
-                        </div>
-                    </div>
-                    <div class="range range-xs-center text-sm-left offset-top-50" style="margin-top:201px">
-                        <div class="cell-xs-10 cell-sm-8 cell-md-8 cell-lg-5 cell-xl-4">
-                            <!-- RD Mailform-->
-                            <div style="background-color:gray; width:90%; margin-top:-50px; margin-left:-1%">
-                                <h2 style="color: #ffffff;  margin-top:-150px;" class="vc_custom_heading" id="show">Contact us</h2>
-                                <div class="nf-form-fields-required" id="show" style="font-size:14px; margin-top:-20px; margin-left:2%">
-                                    <font color="white" style="margin-left: 20%">Fields marked with an
-                                        <span>*</span> are required</font>
-                                </div>
-
-                                <form class="rd-mailform text-left" data-form-output="form-output-global" data-form-type="contact">
-                                    <div class="range">
-                                        <div class="cell-lg-6">
-                                            <form>
-                                                <font style="margin-left:3%;margin-right:4%;font-size: 15px;" color="white";align:text-center>Name
-                                                    <span>*</span>
-                                                </font>
-                                                <br>
-                                                <input style="width:193%; margin-left:3%; border-bottom-right-radius: 5px; " id="show" type="text" name="Name" class="_Name">
-                                                <br>
-
-
-                                            </form>
-                                        </div>
-
-                                        <div class="cell-lg-6 offset-top-20 offset-lg-top-10">
-                                            <div class="form-group">
-                                                <form style="margin-top:63px; margin-left:-134%;">
-                                                    <font style="font-size: 15px;" color="white">Company
-                                                        <span>*</span>
-                                                    </font>
-                                                    <br>
-                                                    <input style="width:81%;  border-bottom-right-radius: 5px;" id="show" type="text" name="Company" class="_Company">
-                                                </form>
-                                            </div>
-                                        </div>
-                                        <div class="cell-lg-12 offset-top-20 offset-lg-top-10">
-                                            <div class="form-group">
-                                                <form style="margin-left:2%;margin-right: 1%;">
-                                                    <font style="font-size: 15px;" color="white"> Email
-                                                        <span>*</span>
-                                                    </font>
-                                                    <br>
-                                                    <input style="width:82%;  border-bottom-right-radius: 5px;" type="text" name="Email" class="_Email">
-                                                </form>
-                                            </div>
-                                        </div>
-                                        <div class="cell-lg-6 offset-top-20 offset-lg-top-0">
-                                            <div class="form-group">
-                                                <form style="margin-top:30px;margin-left: 4%;margin-right: 27px;">
-                                                    <font style="font-size: 15px;" color="white"> Phone No
-                                                        <span>*</span>
-                                                    </font>
-                                                    <br>
-                                                    <input style="width:525%; border-bottom-right-radius: -30px 70px; border-bottom-right-radius: 5px;" type="number" name="Phone"
-                                                        class="_Phone">
-                                                </form>
-                                            </div>
-                                        </div>
-
-                                        <div class="cell-lg-12 offset-top-20 offset-lg-top-30">
-                                            <div style="margin-left:1%;margin-right:10%" class="form-group">
-                                                <font style="font-size: 15px;" color="white"> Message</font>
-                                                <br>
-                                                <textarea style="border-bottom-right-radius: -30px 70px;width:92%;height: 200px;background-color: white;" class="form-control" class="contact-me-message"
-                                                    id="_Message" name="message" data-constraints="@Required"></textarea>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <form style="margin-top:40px;  margin-left:10%;">
-                                            <font style="font-size: 15px;" color="white"> By the way, how did you hear about us?</font>
-                                            <br>
-                                            <input style="width:92%; border-bottom-right-radius: -30px 70px; border-bottom-right-radius: 5px;" type="text" name="By the way, how did you hear about us?" class="_Means">
-                                        </form>
-                                    </div>
-                                    <div class="range range-xs-center range-lg-left text-center text-lg-left offset-top-30">
-                                        <div class="cell-xs-8 cell-sm-6">
-                                            <button style=" border-bottom-right-radius: 5px; margin-left:4%;margin-bottom:4%;" id="_submit" type="submit">send </button>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-
-                        </div>
-                        <div class="cell-xs-10 cell-sm-8 cell-md-8 cell-lg-3 cell-xl-2 offset-top-50 offset-lg-top-0">
-                            <div class="inset-xl-right-20 text-center text-lg-left">
-                                <address class="contact-info reveal-sm-inline-block text-left" style="font-size:15px; margin-top:-8px">
-                                    <div class="unit unit-spacing-sm unit-horizontal p">
-                                        <div class="unit-left" style="color:orange; ">
-                                            <span class="icon icon-xxs fa fa-envelope"></span>
-                                        </div>
-                                        <div class="simple">
-                                            <i class=class="moon-location-3" style="margin-left:3%"></i>
-                                            <span style="margin-left: 1px;">info@railcarrx.com</span>
-                                            </div>
-
-                                    </div>
-                                    <div class="p unit unit-spacing-xs unit-horizontal offset-top-20" style="font-size:15px;">
-                                        <div class="unit-left" style="color:orange">
-                                            <span class="icon icon-xxs fa fa-phone"></span>
-                                        </div>
-                                        <div class="simple">
-                                            <i class="moon-location-3" style="margin-left:1%"></i>
-                                            <span style="margin-left: 1px;">972-559-3465</span>
-                                            </div>
-
-
-                                    </div>
-                                    <div class="p unit unit-spacing-xs unit-horizontal offset-top-10">
-                                        <div class="unit-left" style="color:orange">
-                                            <span class="icon icon-xxs fa fa-map-marker"></span>
-                                        </div>
-                                        <div style="font-size:15px; ">
-                                            <div >
-                                                <div class="wpb_content_element list only_icon">
-                                                    <ul data-icon="moon-location-2">
-                                                        <div class="simple">
-                                                            <i class="moon-location-3"></i>
-                                                            <span style="margin-left: -34px;">1431 Greenway Dr., Ste. 750 Irving,TX 75038</span>
-                                                        </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="p unit unit-spacing-xs unit-horizontal offset-top-20" style="font-size:15px;">
-                                            <div class="unit-left" style="color:orange">
-                                                <span class="icon icon-xxs fa fa-fax"></span>
-                                            </div>
-                                            <div class="simple">
-                                                <i class="moon-location-3" style="margin-left:1%"></i>
-                                                <span style="margin-left: 1px;">(972) 753-6501</span>
-                                                </div>
-                                        </div>
-                                </address>
-                            </div>  
-                        </div>
-                    </div>
+							</div>
+							 <div class="row" style="padding-top:50px">
+        <div class="col-md-6">
+	
+            <form class="my-form">
+                <div class="form-group">
+                    <label for="form-name">Name</label>
+                    <input type="email" class="form-control" id="form-name" placeholder="Name">
+                </div>
+				 <div class="form-group">
+                    <label for="form-name">company</label>
+                    <input type="email" class="form-control" id="form-name" placeholder="Company">
+                </div>
+                <div class="form-group">
+                    <label for="form-email">Email Address</label>
+                    <input type="email" class="form-control" id="form-email" placeholder="Email Address">
+                </div>
+                <div class="form-group">
+                    <label for="form-subject">Telephone</label>
+                    <input type="text" class="form-control" id="form-subject" placeholder="Subject">
+                </div>
+                <div class="form-group">
+                    <label for="form-message">Email your Message</label>
+                    <textarea class="form-control" id="form-message" placeholder="Message"></textarea>
+                </div>
+                <button class="btn btn-default" type="submit">Contact Us</button>                
+            </form>
+        </div>
+		 <div class="col-md-6">
+		 	<div style="padding-bottom:30px">
+				<p><span class="icon icon-xxs fa fa-envelope"></span> info@railcarrx.com</p>
+				<p><span class="icon icon-xxs fa fa-phone"></span> 972-559-3465 </p>
+				<p><span class="icon icon-xxs fa fa-map-marker"></span> 1431 Greenway Dr., Ste. 750 Irving,TX 75038 </p>
+				<p><span class="icon icon-xxs fa fa-fax"></span> (972) 753-6501 </p>
+		</div>
+		 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d107209.87055717812!2d-96.975762!3d32.890012!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4ebeea88a384c3fc!2sRailcarRx!5e0!3m2!1sen!2sus!4v1542882590661" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+           
+			 
+        </div>
+    </div>
+</div>
                 </div>
             </section>
             <!-- Section RD Google Map-->

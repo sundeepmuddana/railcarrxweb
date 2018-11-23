@@ -8118,7 +8118,7 @@ button.close {
 
 /** 2 Bootstrap Toolkit Styles */
 /** 2.1  Reset */
-html *:first-child {
+html  {
 	margin-top: 0;
 }
 
@@ -34257,7 +34257,7 @@ fieldset[disabled] .swiper-slide-caption
 
 .rd-navbar-default.rd-navbar-transparent.rd-navbar-fixed .rd-navbar-nav-wrap, .rd-navbar-default.rd-navbar-dark.rd-navbar-fixed .rd-navbar-nav-wrap, .rd-navbar-sidebar-toggle.rd-navbar-dark.rd-navbar-fixed .rd-navbar-nav-wrap, .rd-navbar-floated.rd-navbar-dark.rd-navbar-fixed .rd-navbar-nav-wrap, .rd-navbar-top-panel.rd-navbar-dark.rd-navbar-fixed .rd-navbar-nav-wrap, .rd-navbar-logo-center.rd-navbar-dark.rd-navbar-fixed .rd-navbar-nav-wrap {
 	color: #fff;
-	background: #191919;
+	background: #fff;
 }
 
 .rd-navbar-default.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav-wrap, .rd-navbar-sidebar-toggle.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav-wrap, .rd-navbar-floated.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav-wrap, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav-wrap, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav-wrap {
@@ -60462,7 +60462,7 @@ html .wrapper {
 	
 }
 .arrow {
-	color: #9f472a;
+	color: #fff;
   }
 
   .sectio-heading h2 span:before {
@@ -60600,7 +60600,7 @@ html .wrapper {
 	margin-left: auto;
 	padding-left: 15px;
 	padding-right: 15px;
-	padding-top: 3%;
+	
 }
 .hb2{
     font-size: 147.36%;
@@ -61768,4 +61768,9 @@ margin-right: -5%;
     max-height: 100%;
     display: inline-block;
     vertical-align: middle;
+}
+@media (max-width: 780px) {
+
+	.mbspace{margin-top:10px}
+	.my-form{padding-bottom:50px}
 }

@@ -726,7 +726,7 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 .fh5co-blog .desc {
-  width: 83.6%;
+  width: 100%;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -1487,6 +1487,7 @@ h1, h2, h3, h4, h5, h6 {
   .row-bottom-padded-sm {
     padding-bottom: 2em;
   }
+  .bgimage1{height: 428px;margin-bottom:30px}
 }
 
 .fh5co-animated {
@@ -1511,3 +1512,25 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*# sourceMappingURL=style.css.map */
+.bgimage1{background: url(../../images/homeheader.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;    padding: 0px;
+    margin: 0px}
+	.shell{padding:30px 0px}
+footer .shell{padding:0px 0px}
+.rd-navbar-default.rd-navbar-static .rd-navbar-inner{background: #f7f7f7 !important;}
+.rd-navbar-default.rd-navbar-transparent.rd-navbar-fixed .rd-navbar-panel, .rd-navbar-default.rd-navbar-dark.rd-navbar-fixed .rd-navbar-panel, .rd-navbar-floated.rd-navbar-dark.rd-navbar-fixed .rd-navbar-panel, .rd-navbar-top-panel.rd-navbar-dark.rd-navbar-fixed .rd-navbar-panel, .rd-navbar-logo-center.rd-navbar-dark.rd-navbar-fixed .rd-navbar-panel{background: #f7f7f7 !important;}
+.rd-navbar-default.rd-navbar-fixed .rd-navbar-toggle span:after, .rd-navbar-floated.rd-navbar-fixed .rd-navbar-toggle span:after, .rd-navbar-top-panel.rd-navbar-fixed .rd-navbar-toggle span:after, .rd-navbar-logo-center.rd-navbar-fixed .rd-navbar-toggle span:after, .rd-navbar-default.rd-navbar-fixed .rd-navbar-toggle span:before, .rd-navbar-floated.rd-navbar-fixed .rd-navbar-toggle span:before, .rd-navbar-top-panel.rd-navbar-fixed .rd-navbar-toggle span:before, .rd-navbar-logo-center.rd-navbar-fixed .rd-navbar-toggle span:before, .rd-navbar-default.rd-navbar-fixed .rd-navbar-toggle span, .rd-navbar-floated.rd-navbar-fixed .rd-navbar-toggle span, .rd-navbar-top-panel.rd-navbar-fixed .rd-navbar-toggle span, .rd-navbar-logo-center.rd-navbar-fixed .rd-navbar-toggle span{
+    background-color: #232323 !important;}
+
+.page-content{clear:both;width:100%;display:block}
+.page-head{    width: 100%;
+    display: block;
+    float: left;
+    clear: both;
+    height: 72px}
+	.rd-navbar-default.rd-navbar-transparent.rd-navbar-fixed .rd-navbar-nav-wrap, .rd-navbar-default.rd-navbar-dark.rd-navbar-fixed .rd-navbar-nav-wrap{background: #ffffff !important;}
+.form-search-wrap label, .form-search-wrap btn {color:#fff !important} 	 
+	.form-search-wrap .form-search-submit{color:#fff !important}
