@@ -61774,3 +61774,17 @@ margin-right: -5%;
 	.mbspace{margin-top:10px}
 	.my-form{padding-bottom:50px}
 }
+@media(max-width:780px){
+	.mbspace{margin-top:10px}
+	.my-form{padding-bottom: 50px}
+	.shell{padding: 30px 10px !important;}
+	[class="cell-"]{padding-left: 0px !important}
+}
+.col-centered{
+	display:inline-block;
+	float:none;
+	/*reset the text-align*/
+	text-align:left;
+	/*inline-block space fix*/
+	margin-right: -4px;
+}

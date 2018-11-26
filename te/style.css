@@ -25704,7 +25704,8 @@ fieldset[disabled] .box-planning-type-4.active .btn-default {
 }
 
 .rd-navbar-default.rd-navbar-static .rd-navbar-menu-wrap {
-	float: right;
+	padding: 20px 0px 20px 0px;
+	
 }
 
 .rd-navbar-default.rd-navbar-static .rd-navbar-panel .rd-navbar-toggle, .rd-navbar-default.rd-navbar-static .form-search-wrap {
