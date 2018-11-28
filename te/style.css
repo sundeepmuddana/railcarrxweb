@@ -26464,7 +26464,7 @@ html:not(.lt-ie10) .not-animated {
 }
 
 .bounceInRight {
-	-webkit-animation-name: bounceInRight;
+	-webkit-animation-name:bounceInRight;
 	animation-name: bounceInRight;
 }
 
