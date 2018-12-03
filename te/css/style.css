@@ -1516,8 +1516,16 @@ h1, h2, h3, h4, h5, h6 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;    padding: 0px;
+    height: 600px;    padding: 0px;
     margin: 0px}
+@media (min-width: 762px) {
+  .bgimage1{background: url(../../images/homeheader.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;    padding: 0px;
+    margin: 0px}  
+}
 	.shell{padding:30px 0px}
 footer .shell{padding:0px 0px}
 .rd-navbar-default.rd-navbar-static .rd-navbar-inner{background: #f7f7f7 !important;}
@@ -1526,11 +1534,24 @@ footer .shell{padding:0px 0px}
     background-color: #232323 !important;}
 
 .page-content{clear:both;width:100%;display:block}
-.page-head{    width: 100%;
+.page-head{    
+    width: 100%;
     display: block;
     float: left;
     clear: both;
-    height: 72px}
+    height: 48px;
+}
+
+@media (min-width: 1200px) {
+.page-head{    
+    width: 100%;
+    display: block;
+    float: left;
+    clear: both;
+    height: 120px;
+}
+}
+
 	.rd-navbar-default.rd-navbar-transparent.rd-navbar-fixed .rd-navbar-nav-wrap, .rd-navbar-default.rd-navbar-dark.rd-navbar-fixed .rd-navbar-nav-wrap{background: #ffffff !important;}
 .form-search-wrap label, .form-search-wrap btn {color:#fff !important} 	 
 	.form-search-wrap .form-search-submit{color:#fff !important}

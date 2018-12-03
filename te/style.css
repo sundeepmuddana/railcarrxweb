@@ -7962,8 +7962,10 @@ iframe {
 }
 
 .range {
+/*
 	margin-left: -10px;
     margin-right: -55px;
+*/
 }
 
 .range > .range {
@@ -20352,8 +20354,7 @@ fieldset[disabled] .btn-primary {
 /*# sourceMappingURL=materialdesignicons.css.map */
 /** 2.14 Scaffolding Addons */
 .page {
-	overflow: hidden;
-	background-color: #fff;
+/*	overflow: auto;*/
 }
 
 .img-rounded {
@@ -25714,7 +25715,7 @@ fieldset[disabled] .box-planning-type-4.active .btn-default {
 
 .rd-navbar-default.rd-navbar-static .rd-navbar-inner {
 	transition: .3s all ease;
-	padding: 20px 60px 20px 60px;
+	padding: 20px 0px 20px 0px;
 	position: relative;
 	text-align: left;
 }
