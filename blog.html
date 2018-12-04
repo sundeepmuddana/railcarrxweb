@@ -15,8 +15,8 @@
     <!-- Stylesheets-->
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Lato:300,300italic,400,700,900|Yesteryear">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/landingcss/style.css">
-    <link rel="stylesheet" href="css/tems.css">
+<!--    <link rel="stylesheet" href="css/landingcss/style.css">-->
+<!--    <link rel="stylesheet" href="css/tems.css">-->
     <!-- Animate.css -->
     <link rel="stylesheet" href="te/css/animate.css">
     <!-- Icomoon Icon Fonts-->
@@ -47,6 +47,23 @@
     .my-form .form-control {
         border-radius: 0;
     }
+        
+    .reveal-block{
+            padding:10px;
+        }
+    .reveal-block img{
+        width:100% !important;
+        height:210px;
+    }
+    .reveal-block p{
+        margin:10px 0px;
+        line-height: 1.3em;
+        font-size:110%;
+        width:100%;
+    }
+    .card-blog{
+        margin-top:30px !important;
+    }
 </style>
 
 <script src="https://maps.googleapis.com/maps/api/js"></script>
@@ -67,18 +84,17 @@
 
 <body>
   <!-- Page-->
-  <div class="page text-center">
+  <div class="page">
     <!-- Page Head-->
 	<header class="page-head slider-menu-position">
             <!-- RD Navbar Transparent-->
-            <div class="rd-navbar-wrap" style="height: 106px;/* background:  white; */background-color:  white;">
+            <div class="rd-navbar-wrap">
                 <nav class="rd-navbar rd-navbar-default rd-navbar-transparent" data-md-device-layout="rd-navbar-fixed" data-anchor-offset="20"
                     data-lg-device-layout="rd-navbar-static" data-lg-auto-height="true" data-md-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static"
-                    data-lg-stick-up="true" style="background: white;">
-						<div class="container">
-                    <div class="rd-navbar-inner" style="background: white;">
-				
+                    data-lg-stick-up="true">
+                    <div class="rd-navbar-inner">
                         <!-- RD Navbar Panel-->
+                        <div class="container">
                         <div class="rd-navbar-panel">
                             <!-- RD Navbar Toggle-->
                             <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar, .rd-navbar-nav-wrap">
@@ -116,7 +132,7 @@
                                         </form>
                                     </div>
                                     <!-- RD Navbar Nav-->
-                                    <ul class="rd-navbar-nav">
+                                    <ul class="rd-navbar-nav" style="z-index:999999">
                                         <!-- <ul class="rd-navbar-nav" style="margin-left: -24%; font-weight:600"> -->
                                         <li>
                                             <a href="CeceRailcarrx.html">
@@ -132,7 +148,7 @@
                                             <a href="#ITSolutions">
                                                 <span class="text-middle" style="color:  black;">Products</span>
                                             </a>
-                                            <ul class="rd-navbar-dropdown">
+                                            <ul class="rd-navbar-dropdown" style="z-index: 9999">
                                                 <li>
                                                     <a href="InsightProduct.html">
                                                         <span class="text-regular text-capitaliz">Insight - For Railcar Owners & Shippers</span>
@@ -198,297 +214,202 @@
                         </div>
                         </div>
                         </div>
-                        </div>
                 </nav>
-             
-                <div id="home" data-type="anchor">
                 </div>
         </header>
-		</div>           <!-- Page Contents-->
+		          <!-- Page Contents-->
 
     <main class="page-content">
-	<div class="container">
-      <section style="padding-top:10%;">
-        <div class="row">
-          <div class="col-sm-4 offset-top-66 offset-sm-top-30 offset-lg-top-0">
-            <!-- Post Boxed-->
-            <a class="reveal-block" href="Blog_1_repairstrategyandcarfleet.html">
-              <div class="post post-boxed">
-                <!-- Post media-->
-                <header class="post-media">
-                  <img class="img-responsive" width="600" height="350" src="images/blog/blogcover_carfile.png" alt="">
-                </header>  
-              </div >
-              <div class="col-sm-10">
-                <span><h6 class="post-h4title" style="color: #544d47;">
-                  Better Prepare for FRA Inspections and Customer Communications
-                </h6></span>
-              </div>
-              <div class="col-sm-6 col-sm-push-2">
-                  <span class="label-custom label-lg-custom label-primary" style="background-color: #9f462a;">Read More</span>
-              </div>
-            </a>
-          </div>
-          <div class="col-sm-4 offset-top-66 offset-sm-top-30 offset-lg-top-0">
-            <!-- Post Boxed-->
-            <a class="reveal-block" href="Blog_2_FRAaudit.html">
-              <div class="post post-boxed">
-                <!-- Post media-->
-                <header class="post-media">
-                  <img class="img-responsive" width="570" height="321" src="images/blog/blogcover_reporting.png" alt="">
-                </header>
-                <!-- Post content-->                
-              </div>
-              <div class="col-sm-10" >
-                <span><h6 class="post-h4title" style="color: #544d47;">Track Shop Performance to Make Smart Decisions</h6></span>                  
-              </div>
-              <div class="col-sm-6 col-sm--2" style="margin-left: 18%;">
-                  <span class="label-custom label-lg-custom label-primary" style="background-color: #9f462a;">Read More</span>
-              </div>
-            </a>
-          </div>
-          <div class="col-sm-4 offset-top-66 offset-sm-top-30 offset-lg-top-0">
-            <!-- Post Boxed-->
-            <a class="reveal-block" href="Blog_3_pricing.html">
-              <div class="post post-boxed">
-                <!-- Post media-->
-                <header class="post-media">
-                  <img class="img-responsive" width="570" height="321" src="images/blog/blogcover_2018outlook.png" alt="">
-                </header>
-                <!-- Post content-->
-              </div>
-              <div class="col-sm-10" >
-                <span><h6 class="post-h3title" style="color: #544d47;">Rail Industry Predictions and Market Changes in 2018</h6></span>
-              </div>
-              <div class="col-sm-6 col-sm-push-2" style="margin-left: 4%;">
-                  <span class="label-custom label-lg-custom label-primary" style="background-color: #9f462a;">Read More</span>
-              </div>
-              </a>
-          </div>
-        </div>
-        <div class="row"style="padding-top: 5%;">
-          <div class="col-sm-4 ">
-            <!-- Post Boxed-->
-            <a class="reveal-block" href="Blog_4_UTLX.html">
-              <div class="post post-boxed">
-                <!-- Post media-->
-                <header class="post-media">
-                  <img class="img-responsive" width="570" height="321" src="images/blog/blogcover_caltrax.png" alt="">
-                </header>
-                <!-- Post content-->
-                <div class="col-sm-10" >
-                  <span><h6 class="post-h3title" style="color: #544d47;">
-                    Caltrax, Inc. Chooses RailcarRx Software to Manage Repair Operations</h6></span>
+        <div class="container">
+            <div class="row">
+            <div class="card-blog">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <a class="reveal-block" href="Blog_1_repairstrategyandcarfleet.html">
+                        <img class="card-img" src="images/blog/blogcover_carfile.png" alt="" style="width:100%"/>
+                        <p style="color: #544d47;">Better Prepare for FRA Inspections and Customer Communications</p>
+                        <div>
+                            <span class="label-custom label-lg-custom label-primary" style="background-color: #9f462a;">Read More</span>
+                        </div>
+                    </a>
                 </div>
-              </div>
-              <div class="col-sm-6 col-sm-push-1">
-                  <span class="label-custom label-lg-custom label-primary" style="background-color: #9f462a;">Read More</span>
-              </div>
-            </a>
-          </div>
-          <div class="col-sm-4">
-            <!-- Post Boxed-->
-            <a class="reveal-block" href="Blog_5_predictiveanalytics.html">
-              <div class="post post-boxed">
-                <!-- Post media-->
-                <header class="post-media">
-                  <img class="img-responsive" width="570" height="321" src="images/blog/blogcover_marketplace.png" alt="">
-                </header>
-                <!-- Post content--> 
-                <div class="col-sm-10" >
-                  <span><h6 class="post-h3title" style="color: #544d47;">
-                      RailcarRx, Inc. announces the launch of RailcarRx Marketplace™</h6></span>
-                </div>
-              </div>
-              <div class="col-sm-6 col-sm-push-1" >
-                  <span class="label-custom label-lg-custom label-primary" style="background-color: #9f462a;">Read More</span>
-              </div>
-            </a>
-          </div>
-          <div class="col-sm-4">
-            <!-- Post Boxed-->
-            <a class="reveal-block" href="Blog_6_TTXRepairBilling.html">
-              <div class="post post-boxed">
-                <!-- Post media-->
-                <header class="post-media">
-                  <img class="img-responsive" width="570" height="321" src="images/blog/blogcover_vip.png" alt="">
-                </header>
-                <!-- Post content-->
-                <div class="col-sm-10" >
-                  <span><h6 class="post-h3title" style="color: #544d47;">VIP Inc Selects RMS to Streamline its Car Repair Billing Process</h6></span>
-                </div>
-              </div>
-              <div class="col-sm-6 col-sm-push-1" >
-                  <span class="label-custom label-lg-custom label-primary" style="background-color: #9f462a;">Read More</span>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="row"style="padding-top: 5%;">
-          <div class="col-sm-4">
-
-            <!-- Post Boxed-->
-            <a class="reveal-block" href="Blog_7_vip.html">
-              <div class="post post-boxed">
-                <!-- Post media-->
-                <header class="post-media">
-                  <img class="img-responsive" width="570" height="321" src="images/blog/blogcover_ttx.png" alt="">
-                </header>
-                <!-- Post content-->
-                <div class="col-sm-10" >
-                  <span><h6 class="post-h3title" style="color: #544d47;">RailcarRx RMS Synchs TTX Repair Billing</h6></span>
-                </div>
-              </div>
-              <div class="col-sm-6 col-sm-push-2">
-                  <span class="label-custom label-lg-custom label-primary" style="background-color: #9f462a;">Read More</span>
-              </div>
-            </a>
-          </div>
-          <div class="col-sm-4">
-
-            <!-- Post Boxed-->
-            <a class="reveal-block" href="Blog_8_marketpalce.html">
-              <div class="post post-boxed">
-                <!-- Post media-->
-                <header class="post-media">
-                  <img class="img-responsive" width="570" height="321" src="images/blog/blogcover_predictive.png" alt="">
-                </header>
-                <!-- Post content-->
-                  <div class="col-sm-10">
-                    <span><h6 class="post-h3title" style="color: #544d47;">Leveraging Predictive Analytics in the Rail Industry</h6></span>
-                  </div>
-              </div>
-              <div class="col-sm-6 col-sm-push-2">
-                  <span class="label-custom label-lg-custom label-primary" style="background-color: #9f462a;">Read More</span>
-              </div>
-            </a>
-          </div>
-          <div class="col-sm-4">
-            <a class="reveal-block" href="Blog_9_caltrax.html">
-              <div class="post post-boxed">
-                <!-- Post media-->
-                <header class="post-media">
-                  <img class="img-responsive" width="570" height="321" src="images/blog/Blogcover_UTLX.png" alt="">
-                </header>
-                <!-- Post content-->
-              </div>
-              <div class="col-sm-10" >
-                <span><h6 class="post-h3title" style="color: #544d47;">Union Tank Car Company Partners with RailcarRx to Build Repair Link</h6></span>
-              </div>
-              <div class="col-sm-6 col-sm-push-1">
-                  <span class="label-custom label-lg-custom label-primary" style="background-color: #9f462a;">Read More</span>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="row" style="padding-top: 5%;">
-          <div class="col-sm-4">
-
-            <!-- Post Boxed-->
-            <a class="reveal-block" href="Blog_10_outlook_2018.html">
-              <div class="post post-boxed">
-                <!-- Post media-->
-                <header class="post-media">
-                  <img class="img-responsive" width="570" height="321" src="images/blog/blogcover_pricing.jpg" alt="">
-                </header>
-                <!-- Post content-->
-              </div>
-              <div class="col-sm-10">
-                <span><h6 class="post-h3title" style="color: #544d47; ">How Repair Shops Can Capture More Revenue By Changing Their Pricing Approach</h6></span>
-              </div>
-              <div class="col-sm-6 col-sm-push-1" >
-                  <span class="label-custom label-lg-custom label-primary" style="background-color: #9f462a;">Read More</span>
-              </div>
-            </a>
-          </div>
-          <div class="col-sm-4">
-
-            <!-- Post Boxed-->
-            <a class="reveal-block" href="Blog_11_reporting.html">
-              <div class="post post-boxed">
-                <!-- Post media-->
-                <header class="post-media">
-                  <img class="img-responsive" width="570" height="321" src="images/blog/blogcover_pinic.jpg" alt="">
-                </header>
-                <!-- Post content-->
-              </div>
-              <div class="col-sm-10">
-                <span><h6 class="post-h3title" style="color: #544d47;">FRA Collects Highest Civil Penalty Rate for Rail Safety Violations. Is it Time To Panic?</h6></span>
-              </div>
-              <div class="col-sm-6 col-sm-push-1">
-                  <span class="label-custom label-lg-custom label-primary" style="background-color: #9f462a;">Read More</span>
-              </div>
-            </a>
-          </div>
-          <div class="col-sm-4">
-            <a class="reveal-block" href="Blog_12_electroniccarfile.html">
-              <div class="post post-boxed">
-                <!-- Post media-->
-                <header class="post-media">
-                  <img class="img-responsive" width="570" height="321" src="images/blog/blogcover_repairfleet.jpg" alt="">
-                </header>
-                <!-- Post content--><!-- 
-                <section class="post-content text-left">
-                  <div class="post-tags group-xs">
-                    <span class="label-custom label-lg-custom label-primary">Photography</span>
-                  </div>
-                  </section> -->
-              </div>
-              <div class="col-sm-10">
-                <span><h6 class="post-h3title" style="color: #544d47;">
-                  Align Repair Shop Strategy to the North American Railcar Fleet</h6></span>
-              </div>
-              <div class="col-sm-6 col-sm-push-1">
-                <span class="label-custom label-lg-custom label-primary" style="background-color: #9f462a;">Read More</span>
             </div>
-            </a>
-          </div>
-        </div>
+            
+            <div class="card-blog">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <a class="reveal-block" href="Blog_2_FRAaudit.html">
+                        <img class="" src="images/blog/blogcover_reporting.png"  alt="" style="width:100%;">
+                        <p style="color: #544d47;">Track Shop Performance to Make Smart Decisions</p>
+                        <div>
+                            <span class="label-custom label-lg-custom label-primary" style="background-color: #9f462a;">Read More</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="card-blog">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <a class="reveal-block" href="Blog_3_pricing.html">
+                        <img src="images/blog/blogcover_2018outlook.png"  alt="" style="width:100%;">
+                        <p style="color: #544d47;">Rail Industry Predictions and Market Changes in 2018</p>
+                      <div>
+                          <span class="label-custom label-lg-custom label-primary" style="background-color: #9f462a;">Read More</span>
+                      </div>
+                      </a>
+                </div>
+            </div>
+            
+            <div class="card-blog">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <a class="reveal-block" href="Blog_4_UTLX.html">
+                        <img  src="images/blog/blogcover_caltrax.png"  alt="" style="width:100%;">
+                        <p style="color: #544d47;">Caltrax, Inc. Chooses RailcarRx Software to Manage Repair Operations</p>
+                        <div>
+                          <span class="label-custom label-lg-custom label-primary" style="background-color: #9f462a;">Read More</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="card-blog">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <a class="reveal-block" href="Blog_5_predictiveanalytics.html">
+                      <img src="images/blog/blogcover_marketplace.png"  alt="" style="width:100%;">
+                      <p style="color: #544d47;">
+                          RailcarRx, Inc. announces the launch of RailcarRx Marketplace™</p>
+                        <div>
+                            <span class="label-custom label-lg-custom label-primary" style="background-color: #9f462a;">Read More</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="card-blog">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <a class="reveal-block" href="Blog_6_TTXRepairBilling.html">
+                      <img src="images/blog/blogcover_vip.png"  alt="" style="width:100%;"/>
+                      <p style="color: #544d47;">VIP Inc Selects RMS to Streamline its Car Repair Billing Process</p>
+                      <div>
+                          <span class="label-custom label-lg-custom label-primary" style="background-color: #9f462a;">Read More</span>
+                      </div>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="card-blog">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <a class="reveal-block" href="Blog_7_vip.html">
+                      <img src="images/blog/blogcover_ttx.png"  alt="" style="width:100%;">
+                      <p style="color: #544d47;">RailcarRx RMS Synchs TTX Repair Billing</p>
+                      <div>
+                          <span class="label-custom label-lg-custom label-primary" style="background-color: #9f462a;">Read More</span>
+                      </div>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="card-blog">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <a class="reveal-block" href="Blog_8_marketpalce.html">
+                      <img src="images/blog/blogcover_predictive.png"  alt="" style="width:100%;">
+                      <p style="color: #544d47;">Leveraging Predictive Analytics in the Rail Industry</p>
+                      <div>
+                          <span class="label-custom label-lg-custom label-primary" style="background-color: #9f462a;">Read More</span>
+                      </div>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="card-blog">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <a class="reveal-block" href="Blog_9_caltrax.html">
+                      <img src="images/blog/Blogcover_UTLX.png"  alt="" style="width:100%;">
+                      <p style="color: #544d47;">Union Tank Car Company Partners with RailcarRx to Build Repair Link</p>
+                      <div>
+                          <span class="label-custom label-lg-custom label-primary" style="background-color: #9f462a;">Read More</span>
+                      </div>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="card-blog">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <a class="reveal-block" href="Blog_10_outlook_2018.html">
+                        <img src="images/blog/blogcover_pricing.jpg"  alt="" style="width:100%;">
+                        <p style="color: #544d47; ">How Repair Shops Can Capture More Revenue By Changing Their Pricing Approach</p>
+                        <div>
+                          <span class="label-custom label-lg-custom label-primary" style="background-color: #9f462a;">Read More</span>
+                      </div>
+                    </a> 
+                </div>
+            </div>
+            
+            <div class="card-blog">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <a class="reveal-block" href="Blog_11_reporting.html">
+                      <img src="images/blog/blogcover_pinic.jpg"  alt="" style="width:100%;">
+                      <p style="color: #544d47;">FRA Collects Highest Civil Penalty Rate for Rail Safety Violations. Is it Time To Panic?</p>
+                        <div>
+                          <span class="label-custom label-lg-custom label-primary" style="background-color: #9f462a;">Read More</span>
+                      </div>
+                    </a> 
+                </div>
+            </div>
+            
+            <div class="card-blog">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <a class="reveal-block" href="Blog_12_electroniccarfile.html">
+                      <img src="images/blog/blogcover_repairfleet.jpg"  alt="" style="width:100%;">
+                      <p style="color: #544d47;">
+                          Align Repair Shop Strategy to the North American Railcar Fleet</p>
+                        <div>
+                        <span class="label-custom label-lg-custom label-primary" style="background-color: #9f462a;">Read More</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            </div>
+            <div class="row" style="margin-top: 30px; padding-left:25px;">
+              <!-- Bootstrap Pagination-->
+              <nav>
+                <ul class="pagination">
+                  <li class="disabled">
+                    <a href="#" aria-label="Previous">
+                      <span class="mdi mdi-chevron-double-left" aria-hidden="true"></span>
+                    </a>
+                  </li>
+                  <li class="active">
+                    <a href="#">1</a>
+                  </li>
+                  <li>
+                    <a href="#">2</a>
+                  </li>
+                  <li>
+                    <a href="#">3</a>
+                  </li>
+                  <li>
+                    <a href="#">4</a>
+                  </li>
+                  <li>
+                    <a href="#" aria-label="Next">
+                      <span class="mdi mdi-chevron-double-right" aria-hidden="true"></span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
         </div>
 
-        <div class="offset-top-66" style="padding-top: 2%; margin-left: 14%">
-          <!-- Bootstrap Pagination-->
-          <nav>
-            <ul class="pagination">
-              <li class="disabled">
-                <a href="#" aria-label="Previous">
-                  <span class="mdi mdi-chevron-double-left" aria-hidden="true"></span>
-                </a>
-              </li>
-              <li class="active">
-                <a href="#">1</a>
-              </li>
-              <li>
-                <a href="#">2</a>
-              </li>
-              <li>
-                <a href="#">3</a>
-              </li>
-              <li>
-                <a href="#">4</a>
-              </li>
-              <li>
-                <a href="#" aria-label="Next">
-                  <span class="mdi mdi-chevron-double-right" aria-hidden="true"></span>
-                </a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-
-
-      </section>
     </main>
     <!-- Default footer-->
-    <footer class="section-relative section-top-66 section-bottom-34 page-footer bg-gray-base context-dark">
-        <div class="shell offset-top-50">
-            <p class="small text-darker">RailcarRx &copy;
-                <span class="copyright-year"></span> .
-                <a href="privacy.html"  style="color: #9f472a;">Privacy Policy</a>
-            </p>
-        </div>
-    </footer>
-  </div>
+        <footer class="section-relative page-footer bg-gray-base context-dark">
+            <div class="shell offset-top-50">
+                <p class="small text-darker" style="padding:3% 0px;">RailcarRx &copy;
+                    <span class="copyright-year"></span> .
+                    <a href="privacy.html" style="color: #9f472a;">Privacy Policy</a>
+                </p>
+            </div>
+        </footer>
+  </div> 
   <!-- Global Mailform Output-->
   <div class="snackbars" id="form-output-global"></div>
   <!-- PhotoSwipe Gallery-->

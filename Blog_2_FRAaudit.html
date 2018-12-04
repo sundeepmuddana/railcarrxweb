@@ -30,6 +30,17 @@
     <!-- Style -->
     <link rel="stylesheet" href="te/css/style.css">
     <link rel="stylesheet" href="te/style.css">
+    <style>
+        .listitem{
+/*            marign:0 !important;*/
+            padding-left:20px !important;
+            font-size:110%;
+        }
+        .listitem li{
+            padding-bottom: 10px;
+        }
+    
+    </style>
 </head>
 
 <body>
@@ -38,12 +49,13 @@
         <!-- Page Head-->
         <header class="page-head slider-menu-position">
             <!-- RD Navbar Transparent-->
-            <div class="rd-navbar-wrap" style="height: 106px;/* background:  white; */background-color:  white;">
+            <div class="rd-navbar-wrap">
                 <nav class="rd-navbar rd-navbar-default rd-navbar-transparent" data-md-device-layout="rd-navbar-fixed" data-anchor-offset="20"
                     data-lg-device-layout="rd-navbar-static" data-lg-auto-height="true" data-md-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static"
                     data-lg-stick-up="true">
-                    <div class="rd-navbar-inner" style="background: white;">
+                    <div class="rd-navbar-inner">
                         <!-- RD Navbar Panel-->
+                        <div class="container">
                         <div class="rd-navbar-panel">
                             <!-- RD Navbar Toggle-->
                             <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar, .rd-navbar-nav-wrap">
@@ -52,8 +64,8 @@
                             <!-- Navbar Brand-->
                             <div class="rd-navbar-brand">
                                 <a href="CeceRailcarrx.html">
-                                    <img width='158' height='48' src='images/RailcarRx_Trademarked.png' alt='' />
                                     <!-- <img style='margin-top: -11px;margin-left: 119px;' width='158' height='48' src='images/RailcarRx_Trademarked.png' alt=''/> -->
+                                    <img width='158' height='48' src='images/RailcarRx_Trademarked.png' alt='' />
                                 </a>
                             </div>
                         </div>
@@ -64,7 +76,7 @@
                                     <div class="rd-navbar-mobile-brand">
                                         <a href="CeceRailcarrx.html">
                                             <img width='158' height='48' src='images/RailcarRx_Trademarked.png' alt='' />
-                                            <!-- <img style='margin-top: -11px;margin-left: -17px;' width='158' height='48' src='images/RailcarRx_Trademarked.png' alt=''/> -->
+                                            <!-- <img style='margin-top: -11px;margin-left: -17px;' width='158' height='48' src='images/RailcarRx_Trademarked.png' alt='' /> -->
                                         </a>
                                     </div>
                                     <div class="form-search-wrap">
@@ -81,7 +93,7 @@
                                         </form>
                                     </div>
                                     <!-- RD Navbar Nav-->
-                                    <ul class="rd-navbar-nav">
+                                    <ul class="rd-navbar-nav" style="z-index:999999">
                                         <!-- <ul class="rd-navbar-nav" style="margin-left: -24%; font-weight:600"> -->
                                         <li>
                                             <a href="CeceRailcarrx.html">
@@ -97,7 +109,7 @@
                                             <a href="#ITSolutions">
                                                 <span class="text-middle" style="color:  black;">Products</span>
                                             </a>
-                                            <ul class="rd-navbar-dropdown">
+                                            <ul class="rd-navbar-dropdown" style="z-index: 9999">
                                                 <li>
                                                     <a href="InsightProduct.html">
                                                         <span class="text-regular text-capitaliz">Insight - For Railcar Owners & Shippers</span>
@@ -109,7 +121,7 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="#">
+                                                    <a href="CRB.html">
                                                         <span class="text-regular text-capitaliz">CRB - For Railroads</span>
                                                     </a>
                                                 </li>
@@ -161,32 +173,34 @@
                                 </div>
                             </div>
                         </div>
+                        </div>
+                        </div>
                 </nav>
                 </div>
-                <div id="home" data-type="anchor">
-                </div>
         </header>
-        <!-- Page Content-->
+	<!-- Page Content-->
         <main class="page-content">
             <section style="margin-top: 6% !important;">
                 <div class="row">
-                    <div class="col-sm-12">
+                    <div class="col-sm-12 col-md-12">
                         <img src="images/blog/blogheader_pinic.jpg" style="width: 100%;">
                     </div>
                 </div>
             </section>
             <!-- Author Aside-->
+            <div class="container">
             <section class="section-88 offset-top-24">                
-                    <div class="range">
-                        <div class="col-sm-2 col-sm-push-1" style="margin-top: 7% !important;">
+                    <div class="row">
+                        <div class="col-sm-3 col-md-3" style="margin-top: 7% !important;">
                             <br>
 
                             <p style="text-align: -webkit-auto; color: #9e472a; font-weight: bold;"> some text area where u can palce it thanks</p>
                         </div>
-                        <div class="col-sm-7 col-sm-push-1 ">
-                            <div class="cell-md-12 text-left">
-                                <h4 class="offset-top-50 text-left" id="blogp">FRA Collects Highest Civil Penalty Rate for Rail Safety Violations” Is it Time To Panic?</h4>
-                                <p id="blogp">
+                        <div class="col-md-1 col-sm-1"></div>
+                        <div class="col-sm-8 col-md-8">
+                            
+                                <h3 class="offset-top-50 text-left" id="blogp">FRA Collects Highest Civil Penalty Rate for Rail Safety Violations” Is it Time To Panic?</h3>
+                                <p style="text-align: justify; font-size:110%;">
                                     Did you catch&nbsp;this recent headline&nbsp;“FRA collects highest civil penalty rate for rail safety violations¹” from Progressive
                                     Railroading that was published on January&nbsp;20th, 2016? We did. &nbsp;It isn’t&nbsp;shocking
                                     that the FRA is increasing the amount of penalties they are issuing and collecting. With
@@ -194,10 +208,10 @@
                                     (at least in our opinion) that the FRA is probably reacting in part to public opinion
                                     that the rails are unsafe.
                                 </p>
-                                <p id="blogp">
+                                <p style="text-align: justify; font-size:110%;">
                                     <strong class="astrong">
                                         The article states the following statistics regarding the rise in civil penalties:</strong>
-                                    <ol class="list list-numbered">
+                                    <ol class="listitem">
                                         <li>“In 2015 the agency will collect 75 percent of all civil penalties for violating
                                             federal safety regulations, a
                                             <strong class="astrong">6 PERCENT INCREASE</strong> over FY2014″</li>
@@ -205,27 +219,26 @@
                                             <strong class="astrong">12 PERCENT INCREASE</strong> over the previous year”</li>
                                     </ol>
                                 </p>
-                                <p id="blogp">
+                                <p style="text-align: justify; font-size:110%;">
                                     <strong class="astrong">The article goes on to say that more than 6,485 railroad company violations resulted
                                         in civil penalties. The penalties are broken down below:</strong>
-                                    <ol class="list list-numbered">
+                                    <ol class="listitem">
                                         <li>29% was for motive power and equipment violations</li>
                                         <li>26% was for track violations</li>
                                         <li>20% was for HAZMAT violations</li>
                                     </ol>
                                 </p>
-                                <p id="blogp">If you want to see how these fines are&nbsp;broken down read the&nbsp;FRA’s report “
+                                <p style="text-align: justify; font-size:110%;">If you want to see how these fines are&nbsp;broken down read the&nbsp;FRA’s report “
                                     <a href="https://www.fra.dot.gov/eLib/details/L17311#p1_z5_gD" target="_blank">Fiscal Year 2015 Enforcement Report</a>.”</p>
-                                <p id="blogp">
+                                <p style="text-align: justify; font-size:110%;">
                                     As a repair shop, this likely affects&nbsp;you. &nbsp;If you have not had a visit from the FRA, it may just be a matter of
                                     time.
                                 </p>
-                                <p id="blogp">
+                                <p style="text-align: justify; font-size:110%;">
                                     <strong class="astrong">As a repair shop, what can you do to improve your preparedness should the FRA show up
                                         at your location? &nbsp;Here are a few tips, and how RailcarRx Repair Shop can help
                                         improve your odds of being prepared.</strong>
-                                    <ol style="color:black;">
-                                        <br>
+                                    <ol class="listitem">
                                         <li>Have a Plan – Our customers have told us that the best way to prepare for an FRA
                                             inspection is to have an advance plan. &nbsp;This plan would include all your
                                             paperwork and documentation should an inspection occur. &nbsp;The documentation
@@ -239,17 +252,15 @@
                                                 <li>AAR Field Manual</li>
                                             </ol>
                                         </li>
-                                        <br>
                                         <li>Practice Your Plan – The best way to make sure that your plan works is to practice
                                             a drill where an FRA inspector has shown up and is requesting specific information.</li>
-                                        <br>
                                         <li>Be Nice If the FRA Shows Up – Cooperating with the&nbsp;FRA inspector is the best
                                             way to get good results. Being friendly and helpful goes a long way. Keep in
                                             mind that you only need to show what information the&nbsp;FRA requests. Don’t
                                             give away extraneous information.</li>
                                     </ol>
                                 </p>
-                                <p id="blogp">More on section 1, points&nbsp;#4 &amp; #5. &nbsp;One of our customers told us they keep
+                                <p style="text-align: justify; font-size:110%;">More on section 1, points&nbsp;#4 &amp; #5. &nbsp;One of our customers told us they keep
                                     a file of ten&nbsp;cars with supporting&nbsp;information for this purpose, in case an
                                     FRA inspector unexpectedly&nbsp;shows up. All the information they would need to provide
                                     is contained within the Electronic Car File in RailcarRx Repair Shop. &nbsp;The data
@@ -262,11 +273,11 @@
                                     (see screen shot below). &nbsp;Additionally, RailcarRx Repair Shop&nbsp;provides the
                                     ability to print these documents in bulk if an inspector should arrive onsite.
                                 </p>
-                                <div class="col-sm-10">
-                                    <img src="images/RailcarRx_Electronic_Car_File_Shopping_Instructions.png" alt="" width="140%">
+                                <div>
+                                    <img src="images/RailcarRx_Electronic_Car_File_Shopping_Instructions.png" alt="" width="100%">
                                 </div>
-                                <div class="col-sm-12">
-                                    <p id="blogp">
+                                <div>
+                                    <p style="text-align: justify; font-size:110%; margin-top:10px;">
                                         RailcarRx Repair Shop allows users to add files to a piece of equipment through the Electronic Car File and store them for
                                         historical reporting needs. RailcarRx Repair Shop&nbsp;also provide the ability to
                                         store and manage gage calibration data. Why is the helpful? Storing information in
@@ -283,15 +294,14 @@
                             </div>
                         </div>
                     </div>
-                </div>
             </section>
-            </div>
             <!-- Conclusion-->
-            <section class="section-66 section-bottom-124">
-                <div class="shell">
+            <section>
+                <div class="container">
+                <div>
                     <div class="range range-xs-center range-lg-left">
-                        <div class="col-sm-10 col-sm-pull-1" style="padding-left: 4%;">
-                            <footer class="offset-top-50 text-sm-left clearfix">
+                        <div class="col-sm-12 col-md-12" style="padding:0;">
+                            <footer class="offset-top-50 clearfix">
                                 <div class="group">
                                     <a class="btn btn-danger btn-icon btn-icon-left" href="#">
                                         <span class="icon icon-xs mdi mdi-heart"></span>like
@@ -313,7 +323,7 @@
                             <!-- <hr class="offset-top-66"> -->
                             <!--   <h4 class="offset-top-66 text-uppercase text-spacing-120 text-center text-bold">Related Posts</h4> -->
                             <div class="range offset-top-41 range-sm-center">
-                                <div class="col-sm-10 col-sm-pull-1">
+                                <div class="col-sm-12 col-md-12" style="padding-left:0; padding-right:0;">
                                     <hr class="offset-top-66">
                                     <h5 class="offset-top-34 text-uppercase text-spacing-120 text-bolds">Leave a comment</h5>
                                     <form class="rd-mailform offset-top-10 text-left" data-form-output="form-contact-me" data-form-type="contact" method="post"
@@ -331,19 +341,21 @@
                         </div>
                     </div>
                 </div>
+                </div>
             </section>
         </main>
         <!-- Page Footer-->
         <!-- Default footer-->
-        <footer class="section-relative section-top-55 section-bottom-34 page-footer bg-gray-base context-dark">
+        <footer class="section-relative page-footer bg-gray-base context-dark">
             <div class="shell offset-top-50">
-                <p class="small text-darker">RailcarRx &copy;
+                <p class="small text-darker" style="padding:3% 0px;">RailcarRx &copy;
                     <span class="copyright-year"></span> .
                     <a href="privacy.html" style="color: #9f472a;">Privacy Policy</a>
                 </p>
             </div>
         </footer>
     </div>
+
     <!-- Global RD Mailform Output-->
     <div class="snackbars" id="form-output-global"></div>
     <!-- PhotoSwipe Gallery-->
