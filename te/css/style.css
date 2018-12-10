@@ -1610,10 +1610,15 @@ body h3{
 	margin-top:10px;
 }
 .container{
-	width:85% !important;
+	width:95% !important;
 	margin:0 auto;
 }
-
+.fadeInRight{
+	padding-top:20px;
+}
+.fadeInRight h3{
+	text-align:center;
+}
 @media (min-width: 300px) and (max-width:767px) {
 	
 .bcontent{
