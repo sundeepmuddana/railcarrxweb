@@ -36380,7 +36380,8 @@ fieldset[disabled] .swiper-slide-caption
 }
 
 .rd-navbar-default.rd-navbar-static .rd-navbar-brand {
-	margin-top: 9px;
+	/*margin-top: 9px;*/
+	margin-top : 20px;
 }
 
 .rd-navbar-default.rd-navbar-static .rd-navbar-panel .rd-navbar-toggle, .rd-navbar-default.rd-navbar-static .form-search-wrap {

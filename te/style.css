@@ -10195,8 +10195,8 @@ p a:hover,
 	}
 	h2 .big,
 	.h2 .big {
-		font-size: 147.36%;
-		line-height: 1.142857142857143;
+		/*font-size: 147.36%;
+		line-height: 1.142857142857143;*/
 	}
 }
 
@@ -25715,7 +25715,8 @@ fieldset[disabled] .box-planning-type-4.active .btn-default {
 
 .rd-navbar-default.rd-navbar-static .rd-navbar-inner {
 	transition: .3s all ease;
-	padding: 20px 0px 20px 0px;
+	/*padding: 20px 0px 20px 0px;*/
+	padding: 0px 0px 0px 0px;
 	position: relative;
 	text-align: left;
 }
@@ -25772,8 +25773,10 @@ fieldset[disabled] .box-planning-type-4.active .btn-default {
 }
 
 .rd-navbar-default.rd-navbar-static.rd-navbar--is-stuck .rd-navbar-inner {
-	padding-top: 10px;
-	padding-bottom: 10px;
+	/*padding-top: 10px;
+	padding-bottom: 10px;*/
+	padding-top: 0px;
+	padding-bottom: 0px;
 }
 
 .rd-navbar-default.rd-navbar-static.rd-navbar--is-stuck .rd-navbar-megamenu {
@@ -31318,3 +31321,4 @@ a.pswp__share--download:hover {
     width: 100%;
     height: 100%;
 }
+

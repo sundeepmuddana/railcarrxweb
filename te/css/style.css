@@ -14,7 +14,7 @@
 body {
   font-family: "PT Sans", Arial, serif;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.5;
   color: #666666;
   color: #7f7f7f;
@@ -1548,10 +1548,82 @@ footer .shell{padding:0px 0px}
     display: block;
     float: left;
     clear: both;
-    height: 120px;
+    height: 80px;
 }
 }
 
 	.rd-navbar-default.rd-navbar-transparent.rd-navbar-fixed .rd-navbar-nav-wrap, .rd-navbar-default.rd-navbar-dark.rd-navbar-fixed .rd-navbar-nav-wrap{background: #ffffff !important;}
 .form-search-wrap label, .form-search-wrap btn {color:#fff !important} 	 
 	.form-search-wrap .form-search-submit{color:#fff !important}
+	
+	
+/************* 08-12-2018*****************/
+
+#BannerVideo{
+	width:100%;
+}
+.Home .page .slider-menu-position{
+	position:absolute;
+	opacity:0.7;
+}
+.about-us .page .slider-menu-position{
+	position:absolute;
+	opacity:0.7;
+	z-index : 9;
+}
+body p{
+	font-size:16px !important;
+}
+body h1{
+	font-size:32px !important;
+}
+body h2{
+	font-size : 24px !important;
+}
+body h3{
+	font-size : 20px !important;
+}
+.desc-grid {
+    padding: 15px;
+	background:#eee;
+}
+.reading{
+	font-size : 21px;
+	padding: 24px 10px;
+}
+.owl-carousel .owl-controls .owl-nav .owl-prev{
+	top:40%;
+	left:0px;
+}
+.owl-carousel .owl-controls .owl-nav .owl-next{
+	top:40%;
+	right:0px;
+}
+.bcontent h1{
+	margin-bottom: 5px;
+}
+.bcontent h2{
+	margin-bottom: 5px;
+	margin-top:0px;
+}
+.bcontent h3{
+	margin-top:10px;
+}
+.container{
+	width:85% !important;
+	margin:0 auto;
+}
+
+@media (min-width: 300px) and (max-width:767px) {
+	
+.bcontent{
+	display:none;
+}
+.reading {
+    font-size: 21px;
+    padding: 47px 10px;
+}
+	
+}
+/************* 08-12-2018 end ***********/	
+	
