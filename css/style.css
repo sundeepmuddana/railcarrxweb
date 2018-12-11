@@ -61473,7 +61473,7 @@ owl-carousel owl-carousel-style-2
 #bolgfont{
 	
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 300;
     color:  black;
 
 }
@@ -61530,7 +61530,7 @@ margin-bottom: 5%;
 @media (min-width: 1200px) {
 .bcontainer .bcontent {
     position: absolute;
-    bottom: 20%;
+    bottom: 40%;
     /*background: rgba(0, 0, 0, 0.5);  Black background with transparency */
     color: #f1f1f1;
     width: 100%;

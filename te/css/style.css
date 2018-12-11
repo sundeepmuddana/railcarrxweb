@@ -1619,6 +1619,19 @@ body h3{
 .fadeInRight h3{
 	text-align:center;
 }
+.range .offset-top-14{
+	margin-top:15px;
+}
+.shell hr{
+	border:none ;
+}
+.thumbnail-wrap img:hover .caption {
+	margin-left:15%;
+}
+.page .range .thumbnail-simple:hover .caption1_1{
+	color: #9e462a !important;
+    margin-left: 11% !important;
+}
 @media (min-width: 300px) and (max-width:767px) {
 	
 .bcontent{
