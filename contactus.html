@@ -185,6 +185,10 @@
             <div class="row">
                 <div class="col-md-6" style="margin-top: 30px;"><h2>Get in Touch with us</h2>
                 <p>Fill out the form below to drop us a message, we will get back to you as soon as possible!  Thank you!</p>
+                <div id="msgcontactsformdiv" style="display:none">
+                <p style="color:darkolivegreen">Thank you! We will contact you shortly</p>
+                </div>
+                <div id="contactsformdiv">
                 <form class="my-form" method="post" style="margin-top:40px;">
                 <div class="form-group">
                     <label for="form-name">Name</label>
@@ -212,6 +216,7 @@
             </div>
                 <button class="btn btn-default" id="_submit" type="button">Submit</button>                
             </form>
+        </div>
             </div>
                 <div class="col-md-6">
                     <div class="img" style="position:relative; top:0; right:0;">
@@ -319,6 +324,7 @@
         <script src="te/js/owl.carousel.min.js"></script>
         <!-- Counters -->
         <script src="te/js/jquery.countTo.js"></script>
+        <script src="https://unpkg.com/sweetalert2@7.17.0/dist/sweetalert2.all.js"></script>
         <script>
             $('#_submit').click(function () {
 			if($(".Name").val()==''){
@@ -360,7 +366,9 @@
                         //alert('Please Fill the fields to submit the form.');
                     },
                 });
-				                        alert("Thank you for Contacting Us. We will get back to you soon.");
+                swal("message has been sent", "we will get back to you! ", "success");
+                                        $('#contactsformdiv').hide();
+                                        $('#msgcontactsformdiv').show();
 			}							
             });
         </script>
