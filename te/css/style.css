@@ -1634,14 +1634,53 @@ body h3{
 }
 @media (min-width: 300px) and (max-width:767px) {
 	
-.bcontent{
-	display:none;
-}
-.reading {
-    font-size: 21px;
-    padding: 47px 10px;
-}
+	.bcontent h1,.bcontent h2,.bcontent h3{
+		color:#000 !important;
+	}
+	.reading {
+		font-size: 17px;
+		padding: 27px 10px;
+	}
+	.img-square{
+		margin-left:0px !important;
+	}
+	.shell [class*="cell-"] {
+		padding-left: 0px; 
+		padding-right: 0px; 
+	}
+	.shell .button1{
+		font-size: 18px;
+	}
+	#reviews .bg-acapulco-news{
+		background: linear-gradient(90deg, #544d47 0%, #544d47 100%);
+	}
 	
+}
+@media (min-width: 768px) and (max-width:1024px) {
+	.baanersection .Home-Banner {
+		height: 425px;
+	}
+	.reading {
+		font-size: 18px;
+		padding: 14px 10px;
+	}
+	.img-square{
+		margin-left:0px !important;
+	}
+	.bcontainer .bcontent {
+    position: absolute;
+    bottom: 0px;
+    /*background: rgba(0, 0, 0, 0.5);  Black background with transparency */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px 20px;
+		top:23%;
+	}
+}	
+.Home-Banner{
+	height: 550px;
+    width: 100%;
+    overflow: hidden;
 }
 /************* 08-12-2018 end ***********/	
 	
