@@ -10105,7 +10105,7 @@ h4 .icon + *,
 	h4,
 	.h4 {
 		line-height: 1.25;
-		font-size: 24px;
+		font-size: 20px;
 	}
 }
 
@@ -22959,7 +22959,7 @@ html .page .offset-m-right-165 {
 
 .unit > [class*='unit-']:first-child,
 .unit-vertical > [class*='unit-']:first-child {
-	padding-top: 0;
+	padding-top: 9%;
 }
 
 .unit > .unit-left + .unit-right,

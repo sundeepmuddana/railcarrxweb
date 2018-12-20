@@ -14080,8 +14080,8 @@ html.lt-ie11 .btn-santos-svg:hover {
 .section-66 {
 	padding-top: 25px;
 	padding-bottom: 10px;
-	padding-right: 12%;
-	padding-left: 12%;
+	padding-right: 0%;
+	padding-left: 0%;
 }
 
 .section-85 {
@@ -61342,7 +61342,7 @@ owl-carousel owl-carousel-style-2
 .button1 {
 	background-color: transparent;
     color: #fffbfb;
-    font-size: 24px;
+    font-size: 18px;
     border-color: #fff;
     border: 2px solid #f2f3f3;
 }
@@ -61473,7 +61473,7 @@ owl-carousel owl-carousel-style-2
 #bolgfont{
 	
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 1000;
     color:  black;
 
 }
