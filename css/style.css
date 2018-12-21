@@ -1682,7 +1682,7 @@ h6 .small, .h6 small,
 }
 
 h1, .h1 {
-	font-size: 45px;
+	font-size: 28px;
 }
 
 h2, .h2 {
@@ -10610,7 +10610,7 @@ h6,
 	margin-top: 29px;
 	margin-bottom: 18px;
 	font-size: 17px;
-	font-weight: 700;
+	font-weight: 500;
 	line-height: 1.5;
 }
 
@@ -10625,7 +10625,7 @@ h6 .icon + *,
 	h6,
 	.h6 {
 		line-height: 1.5;
-		font-size: 17px;
+		font-size: 20px;
 	}
 }
 
@@ -10633,7 +10633,7 @@ h6 .icon + *,
 	h6,
 	.h6 {
 		line-height: 1.48529;
-		font-size: 17px;
+		font-size: 20px;
 	}
 }
 
@@ -61472,14 +61472,14 @@ owl-carousel owl-carousel-style-2
 }
 #bolgfont{
 	
-    font-size: 14px;
-    font-weight: 1000;
+    font-size: 16px;
+    font-weight: 600;
     color:  black;
 
 }
 #bolgfont2{
 	
-    font-size: 11px;
+    font-size: 16px;
     font-weight: 500;
     color:  black;
 
