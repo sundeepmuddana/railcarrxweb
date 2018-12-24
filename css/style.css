@@ -1516,7 +1516,11 @@ html {
 }
 
 body {
+<<<<<<< HEAD
 	font-family: "montserrat", sans-serif !important;
+=======
+	font-family: "Roboto", sans-serif !important;
+>>>>>>> f3b5571f2ceef4995922e51726c8a594cf159b23
 	font-size: 16px;
 	line-height: 1.5;
 	color: #434345;
@@ -61842,7 +61846,14 @@ margin-right: -5%;
 .heading-sec{
     padding-bottom: 20px;
 }
+<<<<<<< HEAD
 .it-project{
+=======
+.row-bg{
+	background-color:#eeeeee;
+	
+}.it-project{
+>>>>>>> f3b5571f2ceef4995922e51726c8a594cf159b23
     height: 360px !important;
     width: 85% !important;
     margin-left: 8pc !important;
@@ -61856,6 +61867,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     line-height: 1.1;
     color: #434345;
 }
+<<<<<<< HEAD
 h1{
 	font-size:28px !important;
 }
@@ -61868,6 +61880,8 @@ h2{
 p{
 	font-size:16px !important;
 }
+=======
+>>>>>>> f3b5571f2ceef4995922e51726c8a594cf159b23
 .row-adj{
 	
 	padding-bottom: 40px;
@@ -61880,8 +61894,13 @@ p{
 
 }
 .our-products{padding-left: 80px;
+<<<<<<< HEAD
   padding-right: 80px;
   margin-top: 30px;
+=======
+padding-right: 80px;
+margin-top: 30px;
+>>>>>>> f3b5571f2ceef4995922e51726c8a594cf159b23
 }
 @font-face {
   font-family: 'icomoon';
