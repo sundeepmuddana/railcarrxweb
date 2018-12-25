@@ -61526,7 +61526,7 @@ margin-bottom: 5%;
 }
 
 .bcontainer img {vertical-align: middle;}
-@media (min-width: 762px and max-width:761px) {
+@media (min-width: 762px and max-width=761px) {
 .bcontainer .bcontent {
     position: absolute;
     top: 0;
@@ -63557,9 +63557,8 @@ body h3{
     width: 100%;
     overflow: hidden;
 }
-/************* 08-12-2018 end ***********/	
-	
-@charset "UTF-8";
+/************* 08-12-2018 end ***********/		
+/* @charset "UTF-8"; */
 /**
 * Template Style
 *
@@ -94883,12 +94882,8 @@ a.pswp__share--download:hover {
     height: 100%;
 }
 .contact-img{
-	      width: 70%;
+	      width: 80%;
     margin-left: 33%;
 
 }
-	
-
-
-
-/*custom css*/
+}
