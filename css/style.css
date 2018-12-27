@@ -8181,10 +8181,7 @@ iframe {
 }
 
 .range {
-/*
-	margin-left: -15px;
-	margin-right: -15px;
-*/
+	justify-content: space-around;
 }
 
 .range > .range {
@@ -10437,6 +10434,8 @@ html.lt-ie-10 .range > [class*="cell-lg-preffix-"] {
 .font-accent {
 	font-family: "Yesteryear", cursive;
 }
+
+
 
 h1,
 .h1 {
@@ -36487,7 +36486,7 @@ fieldset[disabled] .swiper-slide-caption
 }
 
 .rd-navbar-default.rd-navbar-transparent.rd-navbar-static.rd-navbar--is-stuck, .rd-navbar-default.rd-navbar-dark.rd-navbar-static.rd-navbar--is-stuck {
-	background: #191919;
+	/* background: #191919; */
 }
 
 .rd-navbar-default.rd-navbar-dark {
@@ -38319,7 +38318,7 @@ fieldset[disabled] .swiper-slide-caption
 	opacity: 1;
 }
 
-.animated.infinite {
+.  .infinite {
 	-webkit-animation-iteration-count: infinite;
 	animation-iteration-count: infinite;
 }
@@ -71464,10 +71463,6 @@ html *:first-child {
 	margin-top: 0;
 }
 
-html *:last-child {
-	margin-bottom: 0;
-}
-
 a:hover,
 a:focus {
 	text-decoration: none;
@@ -89325,7 +89320,7 @@ fieldset[disabled] .box-planning-type-4.active .btn-default {
 
 .rd-navbar-default.rd-navbar-static.rd-navbar--is-stuck {
 	box-shadow: 0 3px 11px 0 rgba(0, 0, 0, 0.15);
-	background: #fff;
+	/* background: #fff; */
 }
 
 .rd-navbar-default.rd-navbar-static.rd-navbar--is-stuck .rd-navbar-nav > li > .rd-navbar-dropdown {
@@ -89344,7 +89339,7 @@ fieldset[disabled] .box-planning-type-4.active .btn-default {
 }
 
 .rd-navbar-default.rd-navbar-transparent.rd-navbar-static.rd-navbar--is-stuck, .rd-navbar-default.rd-navbar-dark.rd-navbar-static.rd-navbar--is-stuck {
-	background: #191919;
+	/* background: #191919; */
 }
 
 /** 3.2  RD Parallax */
@@ -94886,4 +94881,66 @@ a.pswp__share--download:hover {
     margin-left: 20%;
 
 }
+}
+
+
+
+h1 {
+	font-size: 28px;
+}
+h2 {
+	font-size: 24px;
+}
+h3 {
+	font-size: 20px;
+}
+p {
+	font-size: 16px;
+}
+.row .card-blog:nth-child(1) {
+	padding: 0;
+}
+
+.products h2 {
+	margin-bottom: 10px;
+}
+.products h4 {
+	margin-top: 0;
+}
+
+.investors {
+	display: flex;
+	align-items: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.rd-navbar-default.rd-navbar-static .rd-navbar-inner {
+    background: rgba(255, 255, 255, 0.85) !important;
+}
+
+.video-sec {
+	background-color: rgba(210, 210, 210, 0.4);
+}
+
+.media {
+	display: flex;
+	align-items: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Lato', sans-serif !important;
+
+}
+.Home-Banner.overlay {
+	position: relative;
+}
+.Home-Banner.overlay:before {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.7);
 }
