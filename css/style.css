@@ -63473,12 +63473,12 @@ body h3{
 	top:40%;
 	right:0px;
 }
+
 .bcontent h1{
 	margin-bottom: 5px;
 }
 .bcontent h2{
 	margin-bottom: 5px;
-	margin-top:0px;
 }
 .bcontent h3{
 	margin-top:10px;
@@ -94929,18 +94929,109 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Lato', sans-serif !important;
+	font-family: 'Roboto', sans-serif !important;
+
 
 }
 .Home-Banner.overlay {
 	position: relative;
 }
-.Home-Banner.overlay:before {
+.Home-Banner.overlay:before,
+.landing-section:before {
 	position: absolute;
 	content: "";
 	width: 100%;
 	height: 100%;
 	top: 0;
 	left: 0;
+	display: block;
 	background-color: rgba(0, 0, 0, 0.7);
+}
+.landing-section {
+	background-image: url('../images/positive.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100% !important;
+	position: relative;
+
+}
+.tcontent {
+	margin: 200px 0 100px !important;
+	text-align: left;
+	padding: 0 100px;
+	box-sizing: border-box;
+}
+
+.tcontent p {
+	margin-bottom: 0;
+}
+.tcontent h2 {
+	text-align: left;
+	margin-top: 0;
+}
+
+.product-service-wrap {
+	display: flex;
+	margin-top: 50px !important;
+}
+.products-btn,
+.services-btn {
+	font-size: 23px;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 10px;
+	color: white;
+	padding: 5px 10px;
+	display: block;
+	margin-bottom: 15px;
+	width: 150px;
+}
+.products-btn {
+	background-color: #0c6094;
+}
+.services-btn {
+	background-color: #cc3300;
+}
+.products-list {
+	margin-right: 30px;
+}
+.products-list ul,
+.services-list ul {
+	list-style-type: none;
+	padding-left: 0;
+	color: #fff;
+}
+
+.service-item {
+	display: flex;
+	text-align: left;
+	margin-bottom: 50px !important;
+}
+.service-item h4 {
+	text-align: left;
+	font-size: 20px;
+	font-weight: bold;
+}
+.service-content p {
+	font-size: 14px !important;
+}
+.service-item img {
+	width: 100px;
+	height: 100px;
+	margin-right: 30px;
+}
+.service-content a {
+	border: 1px solid blue;
+	color: blue;
+	font-size: 12px;
+	padding: 10px;
+}
+.service-content a:hover {
+	color: white;
+	background: #B43105;
+	border-color: #B43105;
+}
+.content-position {
+	bottom: 100% !important;
+	top: 30% !important;
 }
