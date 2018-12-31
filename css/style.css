@@ -202,7 +202,7 @@ dfn {
 }
 
 h1 {
-	font-size: 2em;
+	font-size: 28px;
 	margin: 0.67em 0;
 }
 
@@ -1686,11 +1686,11 @@ h1, .h1 {
 }
 
 h2, .h2 {
-	font-size: 38px;
+	font-size: 24px;
 }
 
 h3, .h3 {
-	font-size: 30px;
+	font-size: 20px;
 }
 
 h4, .h4 {
@@ -1706,6 +1706,7 @@ h6, .h6 {
 }
 
 p {
+    font-size:16px;
 	margin: 0 0 12px;
 }
 
@@ -10441,7 +10442,7 @@ h1,
 .h1 {
 	margin-top: 26px;
 	margin-bottom: 21px;
-	font-size: 36px;
+	font-size: 28px;
 	line-height: 1.4;
 }
 
@@ -10449,7 +10450,7 @@ h1,
 	h1,
 	.h1 {
 		line-height: 1.4;
-		font-size: 39.6px;
+		font-size: 28px;
 	}
 }
 
@@ -10473,7 +10474,7 @@ h2,
 .h2 {
 	margin-top: 42px;
 	margin-bottom: 17px;
-	font-size: 32px;
+	font-size: 24px;
 	line-height: 1.3;
 }
 
@@ -10481,7 +10482,7 @@ h2,
 	h2,
 	.h2 {
 		line-height: 1.3;
-		font-size: 34.4px;
+		font-size: 24px;
 	}
 }
 
@@ -10505,7 +10506,7 @@ h3,
 .h3 {
 	margin-top: 27px;
 	margin-bottom: 18px;
-	font-size: 28px;
+	font-size: 20px;
 	line-height: 1.5;
 }
 
@@ -10513,7 +10514,7 @@ h3,
 	h3,
 	.h3 {
 		line-height: 1.5;
-		font-size: 28.8px;
+		font-size: 20px;
 	}
 }
 
@@ -54517,6 +54518,14 @@ html.ie-11 .rev_slider .tp-static-layers .tp-caption {
 	font-weight: 400;
 	font-style: normal;
 }
+@font-face {
+  font-family: roboto;
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+
+*{
+    font-family:roboto !important;
+}
 
 [class*=" revicon-"]:before, [class^=revicon-]:before {
 	font-family: revicons;
@@ -61869,8 +61878,8 @@ p{
 }
 .row-adj{
 	
-	padding-bottom: 40px;
-    padding-top: 40px;
+	padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 .our-services{
@@ -94936,7 +94945,20 @@ h1, h2, h3, h4, h5, h6 {
 .Home-Banner.overlay {
 	position: relative;
 }
-.Home-Banner.overlay:before,
+.Home-Banner.overlay:before {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	display: block;
+	background-color: rgba(0, 0, 0, 0.7);
+/*    background-image: url('../images/positive%20train%20control.png');*/
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
 .landing-section:before {
 	position: absolute;
 	content: "";
@@ -94946,9 +94968,12 @@ h1, h2, h3, h4, h5, h6 {
 	left: 0;
 	display: block;
 	background-color: rgba(0, 0, 0, 0.7);
+    background-image: url('../images/positive%20train%20control.png');
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 DataAnalytics Header.png.landing-section {
-	background-image: url('../images/positive.png');
+	background-image: url('../images/positive%20train%20control.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 100% !important;
@@ -95007,7 +95032,11 @@ DataAnalytics Header.png.landing-section {
 	text-align: left;
 	margin-bottom: 50px !important;
 }
-.service-item h4 {
+.service-item-below {
+	display: flex;
+	text-align: left;
+}
+.service-item h4, .service-item-below h4 {
 	text-align: left;
 	font-size: 20px;
 	font-weight: bold;
@@ -95015,7 +95044,7 @@ DataAnalytics Header.png.landing-section {
 .service-content p {
 	font-size: 14px !important;
 }
-.service-item img {
+.service-item img, .service-item-below img {
 	width: 100px;
 	height: 100px;
 	margin-right: 30px;
@@ -95034,4 +95063,11 @@ DataAnalytics Header.png.landing-section {
 .content-position {
 	bottom: 100% !important;
 	top: 30% !important;
+}
+
+
+.headingh2{
+    position:relative;
+    margin-top:1em;
+/*    margin-bottom: 2em;*/
 }
