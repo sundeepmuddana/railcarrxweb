@@ -36,21 +36,23 @@
         border-radius: 0;
       }
     </style>
-    <script src="https://maps.googleapis.com/maps/api/js">
+    <script src="https://maps.googleapis.com/maps/api/js">    
     </script>
-    <script type="text/javascript">
-      jQuery(function ($) {
-        // Google Maps setup
-        var googlemap = new google.maps.Map(
-          document.getElementById('googlemap'),
-          {
-            center: new google.maps.LatLng(44.5403, -78.5463),
-            zoom: 8,
-            mapTypeId: google.maps.MapTypeId.ROADMAP
-          }
-        );
-      }
-            );
+     <script src="js/download.js"></script>
+    <script>
+      // jQuery(function ($) {
+      //   // Google Maps setup
+      //   var googlemap = new google.maps.Map(
+      //     document.getElementById('googlemap'),
+      //     {
+      //       center: new google.maps.LatLng(44.5403, -78.5463),
+      //       zoom: 8,
+      //       mapTypeId: google.maps.MapTypeId.ROADMAP
+      //     }
+      //   );       
+      // }
+      //       );
+    
     </script>
   </head>
   <body>
@@ -462,17 +464,20 @@ and actionable data for improving operating and business processes including:
 				</div>
 				</div>
             </section>
-                
+           
             <!-- <div class="row">
                 <div class="col-md-2">
-                    <div class="btn btn-primary"><a href="http://railcarrx.com/wp-content/uploads/2017/07/Leveraging-Predictive-Analytics-in-the-Rail-Industry.pdf" target="_blank" download>PDF</a></div>
+                    <div class="btn btn-primary"><input type="button" class="PDF"/></div>
                 </div>
                 <div class="col-md-2">
-                    <div class="btn btn-primary"><a href="http://railcarrx.com/wp-content/uploads/2017/07/The-RailcarRx-Analytics-Approach.mp4" target="_blank" download>Video</a></div>
+                    <div class="btn btn-primary"><a href="http://railcarrx.com/wp-content/uploads/2017/07/The-RailcarRx-Analytics-Approach.mp4" target="_blank" >Video</a></div>
                 </div>
-            </div>
-                 -->
-      <!-- Default footer-->
+                <div class="col-md-2">
+                    <div class="btn btn-primary"><a href="http://www.google.com/" target="_blank" >Videoqqq</a></div>
+                </div>
+            </div> -->
+                 
+      <!-- Default footer
     <footer class="section-relative page-footer bg-gray-base context-dark">
         <div class="shell offset-top-50">
             <p class="small text-darker" style="padding:2% 0px;">RailcarRx &copy;
@@ -539,5 +544,12 @@ and actionable data for improving operating and business processes including:
     </script>
     <script src="js/script.js">
     </script>
+     <script src="js/download.js"></script>
+     <script>
+       $('.PDF').click(function(){
+          console.log(1)
+          $.fileDownload("D:\new\railcarrxweb\images\Leveraging-Predictive-Analytics-in-the-Rail-Industry.pdf");
+        })
+     </script>
   </body>
 </html>
