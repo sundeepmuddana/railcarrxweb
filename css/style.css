@@ -94956,7 +94956,7 @@ h1, h2, h3, h4, h5, h6 {
 	left: 0;
 	display: block;
 	background-color: rgba(0, 0, 0, 0.7);
-/*    background-image: url('../images/positive%20train%20control.png');*/
+/*    background-image: url('../images/Home page header.png');*/
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -94970,12 +94970,12 @@ h1, h2, h3, h4, h5, h6 {
 	left: 0;
 	display: block;
 	background-color: rgba(0, 0, 0, 0.7);
-    background-image: url('../images/positive%20train%20control.png');
+    background-image: url('../images/Home page header.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 DataAnalytics Header.png.landing-section {
-	background-image: url('../images/positive%20train%20control.png');
+	background-image: url('../images/Home page header.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 100% !important;
@@ -95004,7 +95004,7 @@ DataAnalytics Header.png.landing-section {
 .products-btn,
 .services-btn {
 	font-size: 23px;
-	font-weight: 700;
+	font-weight: 600;
 	text-align: center;
 	margin-bottom: 10px;
 	color: white;
@@ -95075,7 +95075,8 @@ DataAnalytics Header.png.landing-section {
 }
 
 .btn-learn{
-    border:1px solid #0c6094;
+	border:1px solid #0c6094;
+	color:#0c6094;
     padding:10px !important;
     font-size: 95%;
 	background-color: #fff;
