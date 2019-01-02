@@ -1872,7 +1872,6 @@ a.bg-danger:focus {
 .page-header {
 	padding-bottom: 11px;
 	margin: 48px 0 24px;
-	border-bottom: 1px solid #f5f5f5;
 }
 
 ul,
@@ -61665,7 +61664,8 @@ color:white;
 	text-align: justify;
     font-size: 16px;
     color: #2e2c2c;
-    transition: 0.5s;
+	transition: 0.5s;
+	
 }
 #rmsspleft{
 	text-align: justify;
@@ -65400,7 +65400,9 @@ a.bg-danger:focus {
 .page-header {
 	padding-bottom: 9.5px;
 	margin: 42px 0 21px;
-	border-bottom: 1px solid #f5f5f5;
+}
+header{
+    background-color: #454545;    
 }
 
 ul,
@@ -94925,7 +94927,7 @@ p {
 }
 
 .rd-navbar-default.rd-navbar-static .rd-navbar-inner {
-    background: rgba(255, 255, 255, 0.85) !important;
+    background-color: lightgrey!important;
 }
 
 .video-sec {
@@ -95050,15 +95052,15 @@ DataAnalytics Header.png.landing-section {
 	margin-right: 30px;
 }
 .service-content a {
-	border: 1px solid blue;
-	color: blue;
+	border: 1px solid #cc3300;
+	color: #cc3300;
 	font-size: 12px;
 	padding: 10px;
 }
 .service-content a:hover {
 	color: white;
-	background: #B43105;
-	border-color: #B43105;
+	background: #cc3300;
+	border-color: #cc3300;
 }
 .content-position {
 	bottom: 100% !important;
@@ -95070,4 +95072,19 @@ DataAnalytics Header.png.landing-section {
     position:relative;
     margin-top:1em;
 /*    margin-bottom: 2em;*/
+}
+
+.btn-learn{
+    border:1px solid blue;
+    padding:10px !important;
+    font-size: 95%;
+	background-color: #fff;
+	margin-top: 4%;
+}
+.btn-learn:hover{
+    border:1px solid blue;
+    padding:10px !important;
+    font-size: 95%;
+    background-color: blue;
+    color:rgb(255, 255, 255);
 }
