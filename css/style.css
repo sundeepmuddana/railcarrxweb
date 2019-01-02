@@ -47457,7 +47457,7 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 .c3-legend-background {
 	opacity: 0.75;
 	fill: white;
-	stroke: lightgray;
+ stroke: lightgray; 
 	stroke-width: 1;
 }
 
@@ -94927,7 +94927,7 @@ p {
 }
 
 .rd-navbar-default.rd-navbar-static .rd-navbar-inner {
-    background-color: lightgrey!important;
+    background-color:  #F5F2F2 !important;
 }
 
 .video-sec {
@@ -95075,16 +95075,16 @@ DataAnalytics Header.png.landing-section {
 }
 
 .btn-learn{
-    border:1px solid blue;
+    border:1px solid #0c6094;
     padding:10px !important;
     font-size: 95%;
 	background-color: #fff;
 	margin-top: 4%;
 }
 .btn-learn:hover{
-    border:1px solid blue;
+    border:1px solid #0c6094;
     padding:10px !important;
     font-size: 95%;
-    background-color: blue;
+    background-color: #0c6094;
     color:rgb(255, 255, 255);
 }
