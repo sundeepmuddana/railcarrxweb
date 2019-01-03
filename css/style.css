@@ -33678,7 +33678,7 @@ fieldset[disabled] .swiper-slide-caption
 	color: #fff;
 	background: none;
 	border: none;
-	outline: none;
+    outline: none;
 	padding: 0;
 }
 
@@ -63767,7 +63767,7 @@ figure {
 hr {
 	box-sizing: content-box;
 	height: 0;
-}
+} 
 
 pre {
 	overflow: auto;
@@ -89306,7 +89306,7 @@ fieldset[disabled] .box-planning-type-4.active .btn-default {
 }
 
 .rd-navbar-default.rd-navbar-static .rd-navbar-nav-wrap {
-	margin-top: 8px;
+	/* margin-top: 8px; */
 	display: inline-block;
 }
 
