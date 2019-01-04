@@ -3,7 +3,7 @@
 
 <head>
     <!-- Site Title-->
-    <title>RailcarRx® - Next Generation IT Solutions for Rail</title>
+    <title>RailcarRx - Multi-level Pool Billing</title>
     <meta charset="utf-8">
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -162,51 +162,55 @@
             <div class="row">
                 <div class= "col-md-6">
                     <div class="img " style="position:relative; top:0; right:0; margin-top: 10%">
-                        <img class="event-img" class="right"  src="images\Strategic Consulting.png">
+                        <img class="event-img" class="right" src="images\MLPB Whitepaper.png" width="90%">
 
                 </div>
-                <p ><strong style="color:crimson">Overview</strong>:<br>
-                   <strong>multi-level pool billing (MLPB)</strong>  has long been a dinosaur in an age when aar billed railcars are standardized across the industry.
-                    Repairs and pre-trip preparing are poorly tracked,in consistent... may affect your organization's processes:
+                <h3 class="text-left"><strong style="color:#B43105"> Overview:</strong></h3>
+                    <p>
+                    <strong>Multi-level pool billing (MLPB)</strong> has long been a dinosaur in an age when AAR billed railcar repairs 
+                   are standardized across the industry.  Repairs and pre-trip prepping are poorly tracked, inconsistent 
+                   and largely under audited.  Sweeping changes are going into effect on February 1st, 2019.  
+                   The following is an overview of the RailcarRx MLPB whitepaper, what it is changing and 
+                   how it may affect your organization’s processes:
                  </p>
-                 <p style="margin-bottom:4%;"><strong>
-                    what is MLPB<br>
-                    what does this mean to the industry<br>
-                    what is changing<br>
-                    what do these changes mean to for me <br>
-                    what's next for contractors and Railroads. </strong></p>
+                
+                 <ul>
+                 <p style="margin-bottom:4%;">
+                    <li><p>What is MLPB</p></li>
+                    <li><p>What does this mean to the industry</p></li>
+                    <li><p>What is changing</p></li>
+                    <li><p>What do these changes mean to for me</p></li>
+                    <li><p>What's next for contractors and Railroads</p></li>
+                    </p>
+                </ul>
+                
             </div>
-                <div class= "col-md-6" style="margin-top: 50px";><h3 style="color:darkblue;"><strong>Please fill the form to watch video </strong></h3>
-                    <p class="text-left"  style="text-align:center">fields mark with <span>*</span> are required </p>
-           
+                <div class= "col-md-6" style="margin-top: 60px";><h3 class="text-left" style="color:#B43105;"><strong>Please fill the form below to download the whitepaper.</strong></h3>
+                    <p class="text-left"  style="text-align:left">Please note that fields mark with <span>*</span> are required </p>
+            <br>
             <form>
                 <div class="form-group">
-                  <label for="name">Name<span>*</span></label>
+                  <label for="name"><strong>Name</strong><span>*</span></label>
                   <input type="text" class="form-control"   id="exampleInputname" placeholder="Enter Name">
                   <!-- <small id="name" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
                 </div>
                 <div class="form-group">
-                  <label for="exampleInputPassword1">Company<span>*</span></label>
+                  <label for="exampleInputPassword1"><strong>Company</strong><span>*</span></label>
                   <input type="text" class="form-control" id="exampleInputcompany" placeholder="Enter Company">
                 </div>
-                <div class="form-group">
-                    <label for="exampleInputEmail1">Title<span>*</span></label>
-                    <input type="text" class="form-control" id="exampleInputtitle" aria-describedby="emailHelp" placeholder="Enter Title">
-                    <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
-                  </div>
                   <div class="form-group">
-                    <label for="exampleInputEmail1">Email<span>*</span></label>
+                    <label for="exampleInputEmail1"><strong>Email</strong><span>*</span></label>
                   <input type="email" class="form-control" id="exampleInputemail" aria-describedby="emailHelp" placeholder="Enter email">
                   <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
                 </div>
                 <div class="form-group">
-                    <label for="exampleInputEmail1">Phone<span>*</span></label>
+                    <label for="exampleInputEmail1"><strong>Phone</strong><span>*</span></label>
                   <input type="text" class="form-control" id="exampleInputphone" aria-describedby="emailHelp" placeholder="Enter Phone">
                   <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
                 </div>
                 
-                <button type="submit" id="_submit" class="btn btn-primary">  Submit</button>
-                <a href="video/The-RailcarRx-Analytics-Approach.mp4">
+                <button type="submit" id="_submit" class="btn btn-primary">Submit</button>
+                <a href="PDF Docs/RailcarRx MLPB Whitepaper.pdf">
                     </a>
               </form>
             </div>
@@ -260,7 +264,7 @@
 				return false;
 			}
 			else{    
-                window.open("https://www.google.com");    
+                window.open("PDF Docs/RailcarRx MLPB Whitepaper.pdf");    
                 $.ajax('http://localhost:59924/api/Email', {
                     type: "post",
                     data: {
