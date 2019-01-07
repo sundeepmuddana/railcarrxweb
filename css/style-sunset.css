@@ -45506,3 +45506,8 @@ pre .chunk {
   position: relative;
   z-index: 1;
 }
+@media (min-width: 768px){
+.vc_col-sm-12 {
+    width: 100%;
+}
+}
