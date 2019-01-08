@@ -94968,7 +94968,7 @@ h1, h2, h3, h4, h5, h6 {
 .landing-section:before {
 	position: absolute;
 	content: "";
-    width: 100%;
+	width: 100%;
 	height: 100%;
 	top: 0;
 	left: 0;
@@ -94987,10 +94987,10 @@ DataAnalytics Header.png.landing-section {
 
 }
 .tcontent {
-    margin: 200px 0 100px !important; 
-	padding: 0 100px;
+	margin: 200px 0 100px !important;
+	text-align: left;
+	padding: 0 100px 0 50px;
 	box-sizing: border-box;
-	/* margin-left:30%; */
 }
 
 .tcontent p {
@@ -95127,4 +95127,8 @@ DataAnalytics Header.png.landing-section {
 .rms-img{
 	width: 30%;
     margin-right: 8%;
+}
+.slider-menu-position{
+	opacity: 0.9;
+	z-index: 9;
 }
