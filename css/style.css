@@ -95179,27 +95179,24 @@ DataAnalytics Header.png.landing-section {
 .ourser:hover{
 	color:#cc3300;
 }
-/* .btn-facebook {
-	background: #3B5998;
-	border-radius: 0;
-	color: #fff;
-	border-width: 1px;
-	border-style: solid;
-	border-color: #263961; 
-  } */
+
  .btn-info:hover{
 	 color: #fff!important;
  }
  #btn-fa{
 
 	 margin-left:0px;
+	 background-color:#3B5998;
 
 
  }
  #btn-fa:hover{
-	background-color:#3FA8C7!important;
+	background-color:#3B5998!important;
  }
 
  #btn-lk:hover{
-	background-color:#3FA8C7!important;
+	background-color:#007BB6!important;
+ }
+ #btn-lk{
+	 background-color:#007BB6;
  }
