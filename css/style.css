@@ -95173,3 +95173,33 @@ DataAnalytics Header.png.landing-section {
 		color: #000 !important;
 	}
 }
+.produ:hover{
+	color:#0c6094;
+}
+.ourser:hover{
+	color:#cc3300;
+}
+/* .btn-facebook {
+	background: #3B5998;
+	border-radius: 0;
+	color: #fff;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #263961; 
+  } */
+ .btn-info:hover{
+	 color: #fff!important;
+ }
+ #btn-fa{
+
+	 margin-left:0px;
+
+
+ }
+ #btn-fa:hover{
+	background-color:#3FA8C7!important;
+ }
+
+ #btn-lk:hover{
+	background-color:#3FA8C7!important;
+ }
