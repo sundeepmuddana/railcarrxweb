@@ -95132,3 +95132,44 @@ DataAnalytics Header.png.landing-section {
 	opacity: 0.9;
 	z-index: 9;
 }
+
+@media (min-width: 300px) and (max-width: 767px) {
+
+	.row {
+	    margin-left: 0px;
+	    margin-right: 0px;
+	}
+	.tcontent{
+		margin: 80px 0 56px !important;
+	    text-align: left;
+	    padding: 0 0px 0 50px;
+	}
+	.product-service-wrap{
+		display: block;
+	}
+	.products-list{
+		margin-bottom: 30px;
+	}
+	.service-item-below {
+	    margin-bottom: 50px !important;
+	}
+	html .page .offset-top-98 {
+	    margin-top: 20px;
+	}
+	.blog-row .col-md-4{
+		margin-bottom: 25%;
+	}
+	.reading{
+		padding-top: 20px;
+    	padding-bottom: 20px;
+	}
+	.rd-navbar-submenu.active .text-middle,.rd-navbar-submenu.opened .text-middle{
+		color:#fff !important;
+	}
+	.rd-navbar-dropdown{
+		background: #ddd;
+	}
+	.rd-navbar-dropdown li span{
+		color: #000 !important;
+	}
+}
