@@ -8124,6 +8124,7 @@ html  {
 
 html *:last-child {
 	margin-bottom: 0;
+	
 }
 
 a:hover,
@@ -70516,8 +70517,8 @@ button.close {
     box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
     background-clip: padding-box;*/
     outline: 0;
-	width: 196%;
-	right: 38%;
+	/*width: 196%;
+	right: 38%;*/
 }
 
 .modal-backdrop {
@@ -70606,7 +70607,8 @@ button.close {
 
 @media (min-width: 768px) {
 	.modal-dialog {
-		width: 600px;
+		/*width: 600px;*/
+		width: 100%;
 		margin: 30px auto;
 	}
 	.modal-content {
@@ -95172,6 +95174,70 @@ DataAnalytics Header.png.landing-section {
 	.rd-navbar-dropdown li span{
 		color: #000 !important;
 	}
+	.bcontainer .bcontent{
+		position: absolute;
+		top: 54px;
+    	width: 100%;
+	}
+	.Home-Banner #BannerVideo{
+		height: 450px;
+	}
+	.rd-navbar-mobile-brand{
+		top:-22px;
+		position: absolute;
+		left: 25%;
+	}
+	.rd-navbar-default.rd-navbar-transparent.rd-navbar-fixed .rd-navbar-panel{
+		background: #fff;
+	}
+	.rd-navbar-default.rd-navbar-fixed .rd-navbar-toggle span:after, .rd-navbar-floated.rd-navbar-fixed .rd-navbar-toggle span:after, .rd-navbar-top-panel.rd-navbar-fixed .rd-navbar-toggle span:after, .rd-navbar-logo-center.rd-navbar-fixed .rd-navbar-toggle span:after, .rd-navbar-default.rd-navbar-fixed .rd-navbar-toggle span:before, .rd-navbar-floated.rd-navbar-fixed .rd-navbar-toggle span:before, .rd-navbar-top-panel.rd-navbar-fixed .rd-navbar-toggle span:before, .rd-navbar-logo-center.rd-navbar-fixed .rd-navbar-toggle span:before, .rd-navbar-default.rd-navbar-fixed .rd-navbar-toggle span, .rd-navbar-floated.rd-navbar-fixed .rd-navbar-toggle span, .rd-navbar-top-panel.rd-navbar-fixed .rd-navbar-toggle span, .rd-navbar-logo-center.rd-navbar-fixed .rd-navbar-toggle span{
+		background-color:#000;
+	}
+	.contactus-page,body{
+		background: #fff;
+	}
+	.contactus-page .container .col-md-6{
+		margin-top: 80px !important;
+	}
+	.slider-menu-position .rd-navbar-wrap {
+	    position: relative;
+	}
+	.row-adj .img-square{
+		margin-left: 0px !important;
+	}
+	.col-md-7 #video1 {
+	    margin-left: 0px !important;
+	    margin-bottom: 20px !important;
+	    margin-top: 20px !important;
+	}
+	.row-adj h1,.row-adj h3{
+		margin-left: 0px !important;
+	}
+	.unit-horizontal{
+		padding-bottom: 20px;
+	}
+	.media{
+		display: block;
+	}
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+.landing-section:before {
+    height: 65%;
+}
+.our-products .col-md-3{
+	margin-bottom: 20px;
+}
+.service-item-below {
+    margin-bottom: 35px !important;
+}
+
+}
+
+.blog-insight-logo{
+	margin-left: -65% !important;
 }
 .produ:hover{
 	color:#0c6094;
