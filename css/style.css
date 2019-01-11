@@ -8124,7 +8124,6 @@ html  {
 
 html *:last-child {
 	margin-bottom: 0;
-	
 }
 
 a:hover,
@@ -61722,7 +61721,8 @@ color:white;
     text-align: justify;
     font-size: 16px;
     color: #2e2c2c;
-    transition: 0.5s;
+	transition: 0.5s;
+	
 }
 #rmsh66o {
     margin-bottom: -1%;
@@ -70608,7 +70608,7 @@ button.close {
 @media (min-width: 768px) {
 	.modal-dialog {
 		/*width: 600px;*/
-		width: 100%;
+		width: 70%;
 		margin: 30px auto;
 	}
 	.modal-content {
@@ -95219,6 +95219,34 @@ DataAnalytics Header.png.landing-section {
 	.media{
 		display: block;
 	}
+	.landing-section:before{
+		height: 712px;
+	}
+	.about-us .row-adj{
+		padding-top: 50px;
+	}
+	.blog-page .d-flex{
+		padding-top: 50px;
+	}
+	.context-dark .text-darker{
+		color:#fff;
+	}
+	.text-darker{
+		margin-top: 0px;
+	}
+	.investors{
+		display: block;
+	}
+	.bg-acapulco-news{
+		background: #e1e1e1;
+	}
+	.button1{
+		border: 2px solid #000;
+		color:#000;
+	}
+	.row .form-div,.text-sm-left .btn-sapphire{
+		margin-bottom: 20px;
+	}
 }
 
 
@@ -95232,6 +95260,19 @@ DataAnalytics Header.png.landing-section {
 }
 .service-item-below {
     margin-bottom: 35px !important;
+}
+
+}
+@media (min-width: 1025px) and (max-width: 1300px) {
+	.landing-section:before {
+	    height: 85%;
+	}
+}
+
+@media (min-width: 300px) and (max-width: 767px) and (orientation:landscape) {
+
+.landing-section:before{
+	height: 712px;
 }
 
 }

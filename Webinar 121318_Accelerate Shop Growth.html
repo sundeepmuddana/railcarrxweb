@@ -2,39 +2,29 @@
 <html class="wide wow-animation scrollTo smoothscroll" lang="en">
 
 <head>
-     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-55931106-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+   <!-- Site Title-->
+   <title>How Railcar Owners Choose Shops</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+   <meta name="description" content="Accelerate Your Shop's Growth, Car Owners' Insight into Shop Selection">
+   <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+   <meta name="keywords" content="Quick turnaround time, railcar repair shops, Big Railcar Owners Choose Shops">
 
-  gtag('config', 'UA-55931106-1');
-</script>
-
-    <!-- Site Title-->
-    <title>How Railcar Owners Choose Shops</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <meta name="description" content="Accelerate Your Shop's Growth, Car Owners' Insight into Shop Selection">
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <meta name="keywords" content="Quick turnaround time, railcar repair shops, Big Railcar Owners Choose Shops">
-
-    <!-- Stylesheets-->
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Lato:300,300italic,400,700,900|Yesteryear">
-    <!-- Animate.css -->
-    <link rel="stylesheet" href="css/animate.css">
-    <!-- Icomoon Icon Fonts-->
-    <link rel="stylesheet" href="css/icomoon.css">
-    <!-- Style -->
-    <link rel="stylesheet" href="css/style.css">
+   <!-- Stylesheets-->
+   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Lato:300,300italic,400,700,900|Yesteryear">
+   <!-- Animate.css -->
+   <link rel="stylesheet" href="css/animate.css">
+   <!-- Icomoon Icon Fonts-->
+   <link rel="stylesheet" href="css/icomoon.css">
+   <!-- Style -->
+   <link rel="stylesheet" href="css/style.css">
        
 </head>
 
 
 <body>
     <!-- Page-->
-    <div class="page text-center">
+    <div class=" text-center">
 		
         <!-- Page Head-->
         <header class="page-head slider-menu-position">
@@ -51,6 +41,12 @@
                             <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar, .rd-navbar-nav-wrap">
                                 <span></span>
                             </button>
+                             <div class="rd-navbar-mobile-brand">
+                                            <a href="CeceRailcarrx.html">
+                                                <img width='158' height='48' src='images/RailcarRx_Trademarked.png' alt='' />
+                                                <!-- <img style='margin-top: -11px;margin-left: -17px;' width='158' height='48' src='images/RailcarRx_Trademarked.png' alt='' /> -->
+                                            </a>
+                                        </div>
                             <!-- Navbar Brand-->
                             <div class="rd-navbar-brand">
                                 <a href="CeceRailcarrx.html">
@@ -176,23 +172,22 @@
                 </div>
                 <h3 class="text-left"><strong style="color:#B43105"> Webinar Overview:</strong></h3>
                     <p>
-                    How two of the top ten equipment leasing companies choose repair shops and evaluate ongoing business relationships? 
-                    <br><br>      
+                        How two of the top ten equipment leasing companies choose repair shops and evaluate ongoing business relationships? 
+                        <br><br>      
                     <strong>Here are the top 3 takeaways of the webinar:</strong>
                  </p>
                  <p style="margin-bottom:4%;">
-                   1. Quick turnaround is the key for car owners to measure repair shops' performance.  
-                   Typically 30 days is an ideal turnaround time for car owners.
-                   <br><br>
-                   2. Shops can provide quotes and order materials ahead of a piece of equipment’s arrival to improve the turnaround time. 
-                   <br><br>
-                   3. Car owners expect on-time and accurate information from the shops such as repair status, POD, and standardized billing, which can be improved by utilizing systems and technology.</p></li>
-                   
-                </p>
+                    1. Quick turnaround is the key for car owners to measure repair shops' performance.  
+                    Typically 30 days is an ideal turnaround time for car owners.
+                    <br><br>
+                    2. Shops can provide quotes and order materials ahead of a piece of equipment’s arrival to improve the turnaround time. 
+                    <br><br>
+                    3. Car owners expect on-time and accurate information from the shops such as repair status, POD, and standardized billing, which can be improved by utilizing systems and technology.</p></li>
+                    
                 <br>
                 
             </div>
-                <div class= "col-md-6" style="margin-top: 60px";><h3 class="text-left" style="color:#B43105;"><strong>Please fill the form below to watch the webinar.</strong></h3>
+                <div class= "col-md-6 form-div" style="margin-top: 60px";><h3 class="text-left" style="color:#B43105;"><strong>Please fill the form below to watch the webinar.</strong></h3>
                     <p class="text-left"  style="text-align:left">Please note that fields mark with <span>*</span> are required </p>
             <br>
             <form>
@@ -275,10 +270,9 @@
                 $.ajax('http://localhost:59924/api/Email', {
                     type: "post",
                     data: {
-                        PageName:"Webinar Details",
                         Name: $("#exampleInputname").val(),
                         Company: $("#exampleInputcompany").val(),
-                       
+                        Title: $("#exampleInputtitle ").val(),
                         Email: $("#exampleInputemail ").val(),
                         Phone: $("#exampleInputphone").val(),
                        

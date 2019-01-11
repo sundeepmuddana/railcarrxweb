@@ -23,7 +23,7 @@
 
 <body>
     <!-- Page-->
-    <div class="page text-center">
+    <div class=" text-center">
 		
         <!-- Page Head-->
         <header class="page-head slider-menu-position">
@@ -40,6 +40,12 @@
                             <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar, .rd-navbar-nav-wrap">
                                 <span></span>
                             </button>
+                             <div class="rd-navbar-mobile-brand">
+                                            <a href="CeceRailcarrx.html">
+                                                <img width='158' height='48' src='images/RailcarRx_Trademarked.png' alt='' />
+                                                <!-- <img style='margin-top: -11px;margin-left: -17px;' width='158' height='48' src='images/RailcarRx_Trademarked.png' alt='' /> -->
+                                            </a>
+                                        </div>
                             <!-- Navbar Brand-->
                             <div class="rd-navbar-brand">
                                 <a href="CeceRailcarrx.html">
@@ -165,11 +171,11 @@
                 </div>
                 <h3 class="text-left"><strong style="color:#B43105"> Overview:</strong></h3>
                     <p>
-                    <strong>Multi-level pool billing (MLPB)</strong> has long been a dinosaur in an age when AAR billed railcar repairs 
-                   are standardized across the industry.  Repairs and pre-trip prepping are poorly tracked, inconsistent 
-                   and largely under audited.  Sweeping changes are going into effect on February 1st, 2019.  
-                   The following is an overview of the RailcarRx MLPB whitepaper, what it is changing and 
-                   how it may affect your organization’s processes:
+                        <strong>Multi-level pool billing (MLPB)</strong> has long been a dinosaur in an age when AAR billed railcar repairs 
+                        are standardized across the industry.  Repairs and pre-trip prepping are poorly tracked, inconsistent 
+                        and largely under audited.  Sweeping changes are going into effect on February 1st, 2019.  
+                        The following is an overview of the RailcarRx MLPB whitepaper, what it is changing and 
+                        how it may affect your organization’s processes:
                  </p>
                 
                  <ul>
@@ -183,7 +189,7 @@
                 </ul>
                 
             </div>
-                <div class= "col-md-6" style="margin-top: 60px";><h3 class="text-left" style="color:#B43105;"><strong>Please fill the form below to download the whitepaper.</strong></h3>
+                <div class= "col-md-6 form-div" style="margin-top: 60px";><h3 class="text-left" style="color:#B43105;"><strong>Please fill the form below to download the whitepaper.</strong></h3>
                     <p class="text-left"  style="text-align:left">Please note that fields mark with <span>*</span> are required </p>
             <br>
             <form>
@@ -266,10 +272,9 @@
                 $.ajax('http://localhost:59924/api/Email', {
                     type: "post",
                     data: {
-                        PageName:"MLPB Details",
                         Name: $("#exampleInputname").val(),
                         Company: $("#exampleInputcompany").val(),
-                        
+                        Title: $("#exampleInputtitle ").val(),
                         Email: $("#exampleInputemail ").val(),
                         Phone: $("#exampleInputphone").val(),
                        
