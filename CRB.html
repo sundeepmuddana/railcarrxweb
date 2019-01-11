@@ -2,7 +2,15 @@
 <html class="wide wow-animation scrollTo smoothscroll" lang="en">
 
 <head>
-  <!-- Site Title-->
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-55931106-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-55931106-1');
+</script>
   
     <!-- Site Title-->
     <meta name="robots" content="noindex,follow"/>
@@ -167,14 +175,15 @@
       <section style="padding-top:35px;">
         <div class="row row-adj row-bg">
           <div class="col-sm-5 col-md-5" >
-            <img class="img-square" width="235" height="60" src="images/CRB Logo.png">
+            <img class="img-square" width="255" height="60" src="images/CRB Logo.png">
             <h1 class="text-picton-blue" style="text-align: -webkit-auto;">A Powerful and Intuitive
                 <br>Railcar Repair Billing System
                 <br>Exclusively for Railroads</h1>
                 <h2 style="text-align: -webkit-auto;">RailcarRx CRB System™ is designed for railroads to identify cars needing repair, create BRCs, manage material
-                    and seamlessly integrate with Railinc through an intuitive interface. </h2>
+                    and seamlessly integrate with Railinc through 
+                    <br>an intuitive interface. </h2>
           </div>
-          <div class="col-sm-7 col-md-7" style="">
+          <div class="col-sm-7 col-md-7">
             <video autoplay muted loop id="video1" style="width: 100%; height: auto; margin:0 auto; frameborder:0;box-shadow: 1px 0px 30px 3px rgba(255, 255, 255, 0.49);">
               <source src="video/railcarrx video/CRB_header.mp4" type="video/mp4"> Your browser does not support HTML5 video.
             </video>
@@ -188,11 +197,11 @@
             <div class="col-sm-12">
               <h3>One System, Multiple Functions for Your AAR Repair Operation</h3>
               <p style="font-size: 110%;">
-                RailcarRx CRB System is a cloud-based Car Repair Billing platform designed to serve the needs of railroads. An end-to-end
-                solution that enables railroads to protect their track asset, stay informed of railcars arriving at the
-                interchange, identify and repair high-risk rolling stock and bill car owners all through one single platform.
-
-              </p>            </div>
+                    RailcarRx CRB System is a cloud-based Car Repair Billing platform designed to serve the needs of Railroads for both AAR billed repairs 
+                    and Multi-level Pool Billing (MLPB) for autoracks. An end-to-end solution that enables railroads to protect their track asset, identify
+                     and repair high-risk rolling stock at or before interchange and bill car owners all through one platform. 
+              </p>            
+            </div>
           </div>
         </section>
         <section style="margin-top:50px;">
@@ -202,8 +211,8 @@
                   <div class="unit-body" style="text-align: center;">
                     <img src="images/crb_consist file.png">
                     <p style="font-size:110%; padding-bottom:50px">
-                      RailcarRx CRB System integrates and organizes railcar identification, alerts and repair information
-                        after the consist files are uploaded to the system.
+                    RailcarRx CRB System allows consist file upload to easily add and identify rolling stock in need of repair.  
+                    Using our Findus.Rail integration, car marks are automatically associated to equipment owners.
                     </p>
 
                   </div>
@@ -213,8 +222,9 @@
               <div class="unit unit-sm unit-sm-horizontal text-center text-sm-left">
                   <div class="unit-body" style="text-align: center;">
                     <img src="images/crb_identify.png">
-                    <p  style="font-size:110%;padding-bottom:50px">The system identifies high-risk equipment and helps plan repairs by integrating with industry data
-                        feeds such as EHMS, Umler and Early Warning.
+                    <p  style="font-size:110%;padding-bottom:50px">
+                            The system identifies high-risk equipment and helps plan repairs by using industry 
+                            data feeds such as EHMS, Umler, Early Warning and Maintenance Advisories.
                     </p>
 
                   </div>
@@ -224,8 +234,8 @@
                 <div class="unit unit-sm unit-sm-horizontal text-center text-sm-left">
                   <div class="unit-body" style="text-align: center;">
                     <img src="images/crb_reporting.png">
-                    <p style="font-size:110%; padding-bottom:50px">The reporting tools provide the actionable insights to help you manage the repair operation. Reports
-                        and dashboards are configurable to match your key business indicators.
+                    <p style="font-size:110%; padding-bottom:50px">The reporting module provides useful information to help you manage the repair process. 
+                        Reports and dashboards are configurable to measure key business indicators.
                      </p>
                   </div>
                 </div>
@@ -234,9 +244,8 @@
                 <div class="unit unit-sm unit-sm-horizontal text-center text-sm-left">
                   <div class="unit-body" style="text-align: center;">
                     <img src="images/crb_pricing.png">
-                    <p style="font-size: 110%;">The RailcarRx CRB System allows you to manage the complexities of pricing by automatically loading
-                        the current AAR Price Master for faster billing.</p>
-
+                    <p style="font-size: 110%;">The RailcarRx CRB System is fully integrated with the AAR Price Master ensuring proper labor and 
+                        material costs and real-time job code combination auditing.</p>
                   </div>
                 </div>
               </div>
@@ -245,8 +254,8 @@
                   <div class="unit-body" style="text-align: center;">
                     <img src="images/crb_invoicing.png">
                     <p style="font-size: 110%;">
-                        Along with the standard CRBDX 500-byte file format, RailcarRx CRB offers a variety of other invoice
-                        formats.
+                            The system generates and submits CRBDX CRIP files and corresponding face bills for both AAR billed repairs and Multi-level Pool Billing 
+                            (MLPB) with a few clicks and automatically reports EHMS alert closures, inspections and component IDs.
                     </p>
                   </div>
                 </div>
@@ -256,8 +265,7 @@
                   <div class="unit-body" style="text-align: center;">
                     <img src="images/crb_easytouse.png">
                     <p style="font-size: 110%;">
-                      You can add and modify cars in bulk with only a couple of clicks eliminating the need to change or
-                        add each car one-by-one manually.
+                            Back Office functionality processes outbound CROP files (car repair invoices for your own equipment), audits and generates rebuttal billing to lessees.
                     </p>
                   </div>
                 </div>
@@ -337,13 +345,13 @@
             <div class="range range-xs-center range-xs-middle range-condensed grid-group-md">
               <div class="cell-md-12 cell-xl-14 text-center text-md-right" style="margin-top: 40px;">
                 <h3>
-                  <span class="regular">Are you looking for a custom CRB & MLPB solution?</span>
+                  <span class="regular">Are You Looking for a Custom CRB & MLPB Solution?</span>
                 </h3>
                 <p style="text-align: -webkit-auto;" id="rmsspleft">
-                  <span class="regular">RailcarRx has been working in the CRB field for over two years.  
-                      We work with two of the largest MLPB pre-trip prep companies in North America. 
-                      As the RailcarRx CRB System is a framework, we can offer components of our solution for use or utilize
-                    the BRC engine and build a completely customized solution to fit your needs. </span>
+                  <span class="regular">RailcarRx possesses a firm working knowledge of AAR Car Repair Billing and 
+                      Multi-level Pool BIlling.  We work with some of the largest MLPB pre-trip prep companies in 
+                      North America.  We can offer components of our CRB system to utilize 
+                      the BRC engine and build a completely customized solution to fit your needs.</span>
                 </p>
               </div>
             </div>
