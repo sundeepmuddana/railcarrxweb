@@ -95245,7 +95245,7 @@ DataAnalytics Header.png.landing-section {
 		display: block;
 	}
 	.bg-acapulco-news{
-		background: #e1e1e1;
+		background: linear-gradient(90deg, #544d47 0%, #544d47 100%);
 	}
 	.button1{
 		border: 2px solid #000;
