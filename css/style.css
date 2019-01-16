@@ -34304,11 +34304,13 @@ fieldset[disabled] .swiper-slide-caption
 }
 
 .rd-navbar-default.rd-navbar-fixed .rd-navbar-nav li.opened > .rd-navbar-submenu-toggle:before, .rd-navbar-sidebar-toggle.rd-navbar-fixed .rd-navbar-nav li.opened > .rd-navbar-submenu-toggle:before, .rd-navbar-sidebar-fixed .rd-navbar-nav li.opened > .rd-navbar-submenu-toggle:before, .rd-navbar-floated.rd-navbar-fixed .rd-navbar-nav li.opened > .rd-navbar-submenu-toggle:before, .rd-navbar-top-panel.rd-navbar-fixed .rd-navbar-nav li.opened > .rd-navbar-submenu-toggle:before, .rd-navbar-logo-center.rd-navbar-fixed .rd-navbar-nav li.opened > .rd-navbar-submenu-toggle:before {
-	content: "";
+	content: "V";
+	font-size: small;
 }
 
 .rd-navbar-default.rd-navbar-fixed .rd-navbar-nav li .resp-tab-active > .resp-arrow:before, .rd-navbar-sidebar-toggle.rd-navbar-fixed .rd-navbar-nav li .resp-tab-active > .resp-arrow:before, .rd-navbar-sidebar-fixed .rd-navbar-nav li .resp-tab-active > .resp-arrow:before, .rd-navbar-floated.rd-navbar-fixed .rd-navbar-nav li .resp-tab-active > .resp-arrow:before, .rd-navbar-top-panel.rd-navbar-fixed .rd-navbar-nav li .resp-tab-active > .resp-arrow:before, .rd-navbar-logo-center.rd-navbar-fixed .rd-navbar-nav li .resp-tab-active > .resp-arrow:before {
-	content: "";
+	content: "V";
+	font-size: small;
 }
 
 .rd-navbar-default.rd-navbar-fixed .rd-navbar-submenu, .rd-navbar-sidebar-toggle.rd-navbar-fixed .rd-navbar-submenu, .rd-navbar-sidebar-fixed .rd-navbar-submenu, .rd-navbar-floated.rd-navbar-fixed .rd-navbar-submenu, .rd-navbar-top-panel.rd-navbar-fixed .rd-navbar-submenu, .rd-navbar-logo-center.rd-navbar-fixed .rd-navbar-submenu {
@@ -34328,8 +34330,9 @@ fieldset[disabled] .swiper-slide-caption
 }
 
 .rd-navbar-default.rd-navbar-fixed .rd-navbar-submenu-toggle:before, .rd-navbar-sidebar-toggle.rd-navbar-fixed .rd-navbar-submenu-toggle:before, .rd-navbar-sidebar-fixed .rd-navbar-submenu-toggle:before, .rd-navbar-floated.rd-navbar-fixed .rd-navbar-submenu-toggle:before, .rd-navbar-top-panel.rd-navbar-fixed .rd-navbar-submenu-toggle:before, .rd-navbar-logo-center.rd-navbar-fixed .rd-navbar-submenu-toggle:before, .rd-navbar-default.rd-navbar-fixed .responsive-tabs .resp-accordion .resp-arrow:before, .rd-navbar-sidebar-toggle.rd-navbar-fixed .responsive-tabs .resp-accordion .resp-arrow:before, .rd-navbar-sidebar-fixed .responsive-tabs .resp-accordion .resp-arrow:before, .rd-navbar-floated.rd-navbar-fixed .responsive-tabs .resp-accordion .resp-arrow:before, .rd-navbar-top-panel.rd-navbar-fixed .responsive-tabs .resp-accordion .resp-arrow:before, .rd-navbar-logo-center.rd-navbar-fixed .responsive-tabs .resp-accordion .resp-arrow:before {
-	content: "";
+	content: "V";
 	display: block;
+	font-size: small;
 	vertical-align: middle;
 }
 
@@ -44829,7 +44832,8 @@ a.pswp__share--download:hover {
 	right: 0;
 	height: 20px;
 	line-height: 20px;
-	content: "";
+	content: "V";
+	font-size: small;
 	font-family: "Material Design Icons";
 	font-size: 20px;
 }
@@ -89007,11 +89011,13 @@ fieldset[disabled] .box-planning-type-4.active .btn-default {
 }
 
 .rd-navbar-default.rd-navbar-fixed .rd-navbar-nav li.opened > .rd-navbar-submenu-toggle:before {
-	content: "";
+	content: "V";
+	font-size: small;
 }
 
 .rd-navbar-default.rd-navbar-fixed .rd-navbar-nav li .resp-tab-active > .resp-arrow:before {
-	content: "";
+	content: "V";
+	font-size: small;
 }
 
 .rd-navbar-default.rd-navbar-fixed .rd-navbar-nav li:hover > a {
@@ -89051,7 +89057,8 @@ fieldset[disabled] .box-planning-type-4.active .btn-default {
 }
 
 .rd-navbar-default.rd-navbar-fixed .rd-navbar-submenu-toggle:before, .rd-navbar-default.rd-navbar-fixed .responsive-tabs .resp-accordion .resp-arrow:before {
-	content: "";
+	content: "V";
+	font-size: small;
 	display: block;
 	vertical-align: middle;
 }
