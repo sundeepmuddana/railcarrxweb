@@ -60867,7 +60867,7 @@ div.gallery {
     width: 180px;
 }
 .context-dark, .context-dark .btn-link, .context-dark .form-label-outside.focus, .context-dark .select2-container--bootstrap .select2-selection--single .select2-selection__rendered, .context-dark .select2-container--bootstrap .select2-selection, .context-dark h1, .context-dark .h1, .context-dark h2, .context-dark .h2, .context-dark h3, .context-dark .h3, .context-dark h4, .context-dark .h4, .context-dark h5, .context-dark .h5, .context-dark h6, .context-dark .h6 {
-	color: #000;
+	color: rgb(253, 252, 252);
 }
 .img-responsive {
 	display: block;
@@ -95249,8 +95249,8 @@ DataAnalytics Header.png.landing-section {
 		background: linear-gradient(90deg, #544d47 0%, #544d47 100%);
 	}
 	.button1{
-		border: 2px solid #000;
-		color:#000;
+		border: 2px solid rgb(253, 253, 253);
+		color:rgb(252, 252, 252);
 	}
 	.row .form-div,.text-sm-left .btn-sapphire{
 		margin-bottom: 20px;
