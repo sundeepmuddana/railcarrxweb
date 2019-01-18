@@ -54,6 +54,22 @@
          .my-form .form-control {
          border-radius: 0;
          }
+          .arrow-downside{
+              position:relative;
+          }
+            .arrow-downside:after {
+                content:'';
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                margin: 0 auto;
+                width: 0;
+                height: 0;
+                border-top: solid 25px rgb(12, 96, 148);
+                border-left: solid 20px transparent;
+                border-right: solid 20px transparent;
+            }
       </style>
       <script src="https://maps.googleapis.com/maps/api/js"></script>
       <script type="text/javascript">
@@ -134,64 +150,64 @@
                                     </li>
                                     <li>
                                         <a href="#">
-                                                <span class="text-middle" style="color:  black;">Products</span>
-                                            </a>
-                                            <ul class="rd-navbar-dropdown">
-                                                <li>
-                                                        <a href="Product_RMS.html">
-                                                                <span class="text-regular text-capitaliz"  id="listdro">RMS - For Railcar Repair Shops</span>
-                                                            </a>
-                                                </li>
-                                                <li>
-                                                        <a href="Product_CRB.html">
-                                                            <span class="text-regular text-capitaliz"  id="listdro">CRB - For Railroads</span>
+                                            <span class="text-middle" style="color:  black;">Products</span>
+                                        </a>
+                                        <ul class="rd-navbar-dropdown">
+                                            <li>
+                                                    <a href="Product_RMS.html">
+                                                            <span class="text-regular text-capitaliz">RMS - For Railcar Repair Shops</span>
                                                         </a>
-                                                    </li>
-                                                <li>
-                                                    <a href="Product_Insight.html">
-                                                            <span class="text-regular text-capitaliz"  id="listdro">Insight - For Railcar Owners & Shippers</span>
-                                                        </a>
+                                            </li>
+                                            <li>
+                                                    <a href="Product_CRB.html">
+                                                        <span class="text-regular text-capitaliz">CRB - For Railroads</span>
+                                                    </a>
                                                 </li>
-                                                <!---<li>
+                                            <li>
+                                                <a href="Product_Insight.html">
+                                                        <span class="text-regular text-capitaliz">Insight - For Railcar Owners & Shippers</span>
+                                                    </a>
+                                            </li>
+                                            <!---<li>
                                                     <a href="#">
                                                         <span class="text-regular text-capitaliz"> Marketplace - For the Rail Industry</span>
                                                     </a>
                                                 </li>-->
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <span class="text-middle" style="color:  black;">Services</span>
-                                            </a>
-                                            <ul class="rd-navbar-dropdown">
-                                                <li>
-                                                    <a href="Service_Contract Consulting.html">
-                                                        <span class="text-regular text-capitaliz"  id="listdro">Technology Consulting</span>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span class="text-middle" style="color:  black;">Services</span>
+                                        </a>
+                                        <ul class="rd-navbar-dropdown">
+                                            <li>
+                                                <a href="Service_Contract Consulting.html">
+                                                    <span class="text-regular text-capitaliz">Technology Consulting</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="Service_Application Modernization.html">
+                                                    <span class="text-regular text-capitaliz">Application Modernization</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="Service_Application Hosting and Maintenance.html">
+                                                    <span class="text-regular text-capitaliz">Application Hosting and Maintenance</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                    <a href="Service_Data Anaytics Practice.html">
+                                                        <span class="text-regular text-capitaliz">Analytics in Action Practice</span>
                                                     </a>
                                                 </li>
-                                                <li>
-                                                    <a href="Service_Application Modernization.html"  >
-                                                        <span class="text-regular text-capitaliz" id="listdro">Application Modernization</span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="Service_Application Hosting and Maintenance.html" >
-                                                        <span class="text-regular text-capitaliz"  id="listdro">Application Hosting and Maintenance</span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                        <a href="Service_Data Anaytics Practice.html" >
-                                                            <span class="text-regular text-capitaliz"  id="listdro">Analytics in Action Practice</span>
+                                            <li>
+                                                    <a href="Service_Cyber Security Testing.html">
+                                                        <span class="text-regular text-capitaliz">Cyber Security Testing and Assessment</span>
                                                         </a>
                                                     </li>
-                                                <li>
-                                                        <a href="Service_Cyber Security Testing.html" >
-                                                            <span class="text-regular text-capitaliz"  id="listdro">Cyber Security Testing and Assessment</span>
-                                                            </a>
-                                                        </li>
-                                                
-                                            </ul>
-                                        </li>
+                                            
+                                        </ul>
+                                    </li>
                                     <li>
                                         <a href="blog.html">
                                             <span class="text-middle" style="color:  black;">Blog</span>
@@ -211,135 +227,108 @@
             </nav>
          </div>
       </header>
-      <div class="container">
       <main>
-         <div class= "vc_col-sm-12 ">
-            <div class="img " style="position:relative; top:0; right:0; margin-top: 10% ; margin-bottom: 2%;"> 
-               <img width="300" height="98" src="D:\new\railcarrxweb\images\RMS Logo.jpg" class="vc_single_image-img attachment-medium" alt=""  sizes="(max-width: 300px) 100vw, 300px">
-            </div>
-         </div>
+      <div class="container">
+
+         <div>&#x00A0;</div>
          <div class="row">
-            <h1 style="text-align: center; margin-top: 4%;">2018 Performance Report</h1>
+            <div class= "col-sm-12 ">
+            <div class="" style="position: relative; margin-top: 130px; margin-bottom: 130px;"> 
+               <img width="300" height="98" src="./images/2017/logos/RailcarRxRMS_Small.jpg" class="vc_single_image-img attachment-medium" alt=""  sizes="(max-width: 300px) 100vw, 300px">
+                <div style="text-align: center; font-size:200%; font-family: Montserrat; margin-top:3%;">RailcarRx Repair Management System Performance Report 2018</div>
+            </div>
+         </div> 
          </div>
-         <div class="vc_col-sm-12">
-         <div class="section-style" style="background-image: url(&quot;http://www.railcarrx.com/wp-content/uploads/2018/02/aerial-view-of-colorful-freight-trains-railway-PJEQXF9-1-1.jpg&quot;); background-position: center center;width: 100% !important; background-repeat: no-repeat; margin-top: 6%; margin-bottom: 0px;">
-            <div style="position: absolute;top: 0;"></div>
-            <div class="bg-overlay" style="background: rgba(252,252,252,0.8 );"></div>
-            <div class="container  dark">
-               <div class="container">
+        </div>
+        <div class="row">
+         <div class="col-sm-12">
+         <div style="background-image: url(&quot;http://www.railcarrx.com/wp-content/uploads/2018/02/aerial-view-of-colorful-freight-trains-railway-PJEQXF9-1-1.jpg&quot;); background-position: center center;width: 100% !important; background-repeat: no-repeat;">
+            <div class="section-style" style="background-color: rgba(252,252,252,0.8); padding-right:5%; padding-left: 5%">
                   <div class="row">
-                     <div class="vc_col-sm-12">
-                        <div class="col-sm-6">
-                           <div class="img " style="position:relative; top:0; right:2%; margin-top: 10%;color: black;">
-                              <img class="rms-img" class="right" src="images/RailcarRx_Trademarked.png" >
-                           </div>
-                           <h2 style="text-align:center;font-weight: bold; color:black"><strong>Quick Overview </strong></h2>
+                        <div class="col-md-6 col-sm-6">
+                           <div style="vertical-align: middle; line-height:130px;">
+                              <img src="images/RailcarRx_Trademarked.png" style="width:40%;" >
+                           
+                           <h4 style="text-align:center;font-weight: bold; font-size:1.7em; margin-top: 20px;">Quick Overview</h4>
+                            </div>
                         </div>
-                        <div class="col-sm-6">
-                           <p  class="text-left"  style="text-align: justify; font-size:110%; font-weight: 600;margin-bottom: 4%;"><span>
-                            Since the launch of RailcarRx RMS™ in October 2014, the RailcarRx Team has successfully grown its customer base to the 
-                            point that RailcarRx RMS has become one of the most used repair management systems in the rail industry.
-                           </span></p>
-                           <p  class="text-left"  style="text-align: justify; font-size:110%;font-weight: 600;"><span>
-                                <br>RailcarRx, Inc now has the honor of serving companies of different sizes in the Rail Industry, our customers include Railroads 
-                                (both Class 1 and smaller), Car Owners (leasing companies and shippers) and Repair Shops.  RailcarRx’s dedication and 
-                                determination to providing the best IT products and services in the Rail Industry will keep driving us to deliver the 
-                                best value for all of our customers.  
-                               </span></p>
+                        <div class="col-md-6 col-sm-6">
+                           <p style="text-align: left; font-size:105% !important; font-weight: 600; color: rgba(0,0,0,0.8); line-height:1.8em!important;">Since the launch of RailcarRx RMS™ in October 2014, the RailcarRx Team has successfully grown its customer base to the point that RailcarRx RMS has become one of the most used repair management systems in the rail industry.</p>
+                           <p style="text-align: left; font-size:105% !important; font-weight: 600; color: rgba(0,0,0,0.8); margin-top:40px; line-height:1.8em!important;">RailcarRx, Inc now has the honor of serving companies of different sizes in the Rail Industry, our customers include Railroads (both Class 1 and smaller), Car Owners (leasing companies and shippers) and Repair Shops.  RailcarRx’s dedication and determination to providing the best IT products and services in the Rail Industry will keep driving us to deliver the best value for all of our customers.</p>
                         </div>
                      </div>
                   </div>
-               </div>
+                </div>
             </div>
-         </div>
-         <div class="col-sm-12" style="padding:0px;background-color: black" data-animation="none" data-delay="">
+          </div>
+          <div class="section-style" style="padding-right:10%; padding-left: 10%; background-color: #000;">
+        <div class="row">
+         <div class="col-sm-12" data-animation="none" data-delay="">
             <h2 style="text-align:left;color:#fff;"><span>More repair shops joined us in 2018:&nbsp;</span></h2>
             <div class="vc_row wpb_row vc_inner vc_row-fluid">
                <div class="col-sm-6">
-                  <div class="vc_column-inner ">
-                     <div class="wpb_wrapper">
-                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="300" height="269" src="images/performance_shops.png"> </div>
+                  <div class="vc_column-inner">
+                     <div class="wpb_wrapper" style="text-align: right;">
+                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="300" height="269" src="./images/features/home-intro-18-245x230.png"> </div>
                      </div>
                   </div>
                </div>
+                <div class="col-md-6">
+                <h2 style="text-align: left; color: #0c7cc2; font-weight: normal; margin-top:18%;">On an average, one repair facility switched over to RailcarRx each month.</h2>
             </div>
-            <div class="wpb_column vc_column_container vc_col-sm-6">
-               <div class="vc_column-inner ">
-                  <div class="wpb_wrapper">
-                     <div class="vc_empty_space" style="height: 75px"><span class="vc_empty_space_inner"></span></div>
-                     <div class="wpb_text_column wpb_content_element ">
-                        <div class="wpb_wrapper">
-                           <h2 style="text-align: left;"><span style="color: #0c7cc2;">On an average, one repair facility switched over to RailcarRx each month.</h2>
-                        </div>
-                     </div>
-                  </div>
-               </div>
             </div>
+            
          </div>
-         <div class="vc_col-sm-12 " style="padding-bottom: 0px;  background-color:rgb(66, 66, 66);" data-animation="none" data-delay="">
-            <h3 style="text-align:left;color:white;"><span>Total amount of BRC lines generated from RailcarRx RMS:&nbsp;</span></h3>
-            <h4 style="text-align:left;color: white;">(in US Dollar)</h4>
-            <div class="wpb_wrapper">
-            </div>
-            <div class="wpb_text_column wpb_content_element ">
-               <div class="wpb_wrapper">
-               </div>
-            </div>
-            <div class="wpb_single_image wpb_content_element vc_align_right  wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp wpb_start_animation animated">
+        </div>
+        </div>
+        <div class="section-style" style="padding-right:10%; padding-left: 10%; background-color:rgb(66, 66, 66);">
+        <div class="row">
+         <div class="col-sm-12" data-animation="none" data-delay="">
+            <h2 style="text-align:left;color:white;">Total amount of BRC lines generated from RailcarRx RMS:&nbsp;<br/><span style="text-align:left; color: white; font-size:70% !important; font-weight: normal;">(in US Dollar)</span></h2>
+            <div class="wpb_single_image wpb_content_element vc_align_right  wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp wpb_start_animation animated text-right" style="margin-top:50px;">
                <figure class="wpb_wrapper vc_figure">
-                  <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="800" height="550" src="images/performance_shops.png></div>
+                  <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="800" height="550" src="./images/Insight%20Dashboard.JPG"></div>
                </figure>
             </div>
          </div>
-         <div  class="wpb_row vc_row-fluid  animate_onoffset row-dynamic-el section-style    " style="background-color: rgb(12, 96, 148); margin-top: 0px;">
-         <div style="position: absolute;top: 0;"></div>
-         <div class="container  dark">
-         <div class="section_clear">
-         <div class="vc_col-sm-12 wpb_column column_container with_padding " style="padding:" data-animation="none" data-delay="">
-         <div class="wpb_wrapper">
-         <div class="wpb_text_column wpb_content_element ">
-            <div class="wpb_wrapper">
-               <h2 style="text-align: left; color: #ffffff;"><span ><span>System stability performance in 2018:&nbsp;</span></span></h2>
             </div>
-         </div>
-         <div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div>
-         <div class="vc_row wpb_row vc_inner vc_row-fluid">
-         <div class="wpb_column vc_column_container vc_col-sm-6">
-         <div class="vc_column-inner ">
-         <div class="wpb_wrapper">
-            <div class="wpb_single_image wpb_content_element vc_align_center  wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp wpb_start_animation animated">
-               <div class="col-sm-12">
+            </div>
+          <div class="arrow-downside">
+        <div class="section-style" style="padding-right:10%; padding-left: 10%; background-color: rgb(12, 96, 148);">
+        <div class="row">
+         <div class="col-sm-12" data-animation="none" data-delay="">  
+          <h2 style="text-align: left; color: #ffffff;"><span ><span>System stability performance in 2018:&nbsp;</span></span></h2>
+            <div class="row" style="margin-top:8%;">
                   <div class="col-sm-6">
-                     <div class="vc_single_image-wrapper   vc_box_border_grey" style="text-align: center"><img width="150" height="150" src="images/performance_system.png"></div>
+                     <div class="vc_single_image-wrapper   vc_box_border_grey" style="text-align: center"><img width="150" height="150" src="./images/linkedin-sociocon.png"></div>
                   </div>
-                  <div class="wpb_column vc_column_container vc_col-sm-6">
-                     <div class="vc_column-inner ">
+                  <div class="col-sm-6">
                         <div class="wpb_wrapper">
                            <div class="wpb_text_column wpb_content_element  wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp wpb_start_animation animated">
-                              <div class="col-sm-6">
-                                 <h2 style="color: #ffffff;text-align: left;"><span >The system uptime in 2018 was 99.98%.</span></h2>
-                                 <h2 style="color: #ffffff;text-align: left;"><span >The total system downtime was 1 hr 48 mins, which mainly consisted of planned maintenance and updates.</span></h2>
+                                 <h2 style="color: #ffffff;text-align: left;"><span style="font-size:100% !important; font-weight: normal;">The system uptime in 2018 was</span> 99.98%.</h2>
+                                 <h2 style="color: #ffffff;text-align: left;"><span style="font-size:100% !important; font-weight: normal;">The total system downtime was</span> 1 hr 48 mins<span style="font-size:100% !important; font-weight: normal;">, which mainly consisted of planned maintenance and updates.</span></h2>
                               </div>
                            </div>
                         </div>
                      </div>
                   </div>
                </div>
-               </div>
-
-               
-                    </div>
-                   </div>
-               </div>
             </div>
-      </main>
-      <div class="col-sm-12">
+              
+          </div>
             <div class="row">
-                <div class="img" style="position:relative; top:0; right:0; margin-top: 10%">
-                     <img width="700" height="120" src="http://www.railcarrx.com/wp-content/uploads/2018/02/Contact-Us.png" class="vc_single_image-img attachment-full" alt="" srcset="http://www.railcarrx.com/wp-content/uploads/2018/02/Contact-Us.png 1024w, http://www.railcarrx.com/wp-content/uploads/2018/02/Contact-Us-300x71.png 300w, http://www.railcarrx.com/wp-content/uploads/2018/02/Contact-Us-768x182.png 768w, http://www.railcarrx.com/wp-content/uploads/2018/02/Contact-Us-300x71@2x.png 600w" sizes="(max-width: 1024px) 100vw, 1024px">
-                  <p style="text-align:center">Contact us for your repair management needs. </p>
+                <div style="height:50px;"></div>
+            </div>
+
+      
+            <div class="row">
+                <div class="img" style="position:relative; margin-top: 10%">
+                     <img width="400" height="120" src="http://www.railcarrx.com/wp-content/uploads/2018/02/Contact-Us.png" class="vc_single_image-img attachment-full" alt="" srcset="http://www.railcarrx.com/wp-content/uploads/2018/02/Contact-Us.png 1024w, http://www.railcarrx.com/wp-content/uploads/2018/02/Contact-Us-300x71.png 300w, http://www.railcarrx.com/wp-content/uploads/2018/02/Contact-Us-768x182.png 768w, http://www.railcarrx.com/wp-content/uploads/2018/02/Contact-Us-300x71@2x.png 600w" sizes="(max-width: 1024px) 100vw, 1024px">
+                  <p style="text-align:center; font-size:75%;">Contact us for your repair management needs. </p>
                   
       </div>
+          </div>
+                </main>
       <!-- Global Mailform Output-->
       <div class="snackbars" id="form-output-global"></div>
       <!-- PhotoSwipe Gallery-->
