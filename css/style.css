@@ -94978,7 +94978,7 @@ h1, h2, h3, h4, h5, h6 {
 	position: absolute;
 	content: "";
 	width: 100%;
-	height: 100%;
+	height: 140%;
 	top: 0;
 	left: 0;
 	display: block;
@@ -95261,7 +95261,7 @@ DataAnalytics Header.png.landing-section {
 @media (min-width: 768px) and (max-width: 1024px) {
 
 .landing-section:before {
-    height: 65%;
+    height: 64%;
 }
 .our-products .col-md-3{
 	margin-bottom: 20px;
@@ -95271,12 +95271,51 @@ DataAnalytics Header.png.landing-section {
 }
 
 }
+
+@media (min-width: 762px) and (max-width: 1903px) {
+
+	.landing-section:before {
+		height: 68%;
+	}
+	.our-products .col-md-3{
+		margin-bottom: 20px;
+	}
+	.service-item-below {
+		margin-bottom: 35px !important;
+	}
+	
+	}
+@media (min-width: 1024px) and (max-width: 1366px) {
+
+	.landing-section:before {
+		height: 51%;
+	}
+	.our-products .col-md-3{
+		margin-bottom: 20px;
+	}
+	.service-item-below {
+		margin-bottom: 35px !important;
+	}
+	
+	}
 @media (min-width: 1025px) and (max-width: 1300px) {
 	.landing-section:before {
 	    height: 85%;
 	}
 }
-
+/* .landing-section:before {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 140%;
+	top: 0;
+	left: 0;
+	display: block;
+	background-color: rgba(0, 0, 0, 0.7);
+    background-image: url('../images/Home page header.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+} */
 @media (min-width: 300px) and (max-width: 767px) and (orientation:landscape) {
 
 .landing-section:before{
