@@ -2466,4 +2466,10 @@ $document.ready(function () {
 			}
 		);
 	}
+
+
+	$(".rd-navbar-submenu").click(function(e){
+
+		$(this).toggleClass("opened");
+	});
 });

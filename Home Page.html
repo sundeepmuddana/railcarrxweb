@@ -179,7 +179,7 @@
                     </h1>
                 <div class="product-service-wrap row">
                     <div class="products-list col-lg-3">
-                        <a href="#" class="products-btn">Products</a>
+                        <a href="#" class="products-btn" id="btnprouctsforweb">Products</a>
                         <ul>
                             <li><a class="produ" href="Product_RMS.html">Repair Shops</a></li>
                             <li><a class="produ" href="Product_CRB.html">Railroads</a></li>
@@ -477,9 +477,15 @@
                 <p class="small text-darker" style="padding:2% 0px;">RailcarRx &copy;
                     <span class="copyright-year"></span>
                     <a href="privacy.html" style="color: #9f472a;">Privacy Policy</a>
+                    <!--social share buttons-->
+                    <span class="social-footer">
+                        <a href="#" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    </span>
                 </p>
                 
             </div>
+            
         </footer>
         </div>
         <!-- Global RD Mailform Output-->
@@ -520,12 +526,11 @@
             </div>
         </div>
         <!-- JavaScript-->
+        
         <script src="js/core.min.js"></script>
         <script src="js/script.js"></script>
-        <script>
-            $().click(function() {
-
-                })
+        <script type="text/javascript">
+            
                 // $(".butmain").css("box-shadow","0 20px 25px 5px rgba(0,0,0,0.5) !important;");
             function openPage(pageName, elmnt, image) {
                 $(".button12").removeClass("tabActive");
@@ -561,9 +566,10 @@
                 //elmnt.style.backgroundColor = image;
 
             }
+
             // Get the element with id="defaultOpen" and click on it
             document.getElementById("defaultOpen");
-            $(".products-btn").click(function() {
+            $("#btnprouctsforweb").click(function() {
                 $([document.documentElement, document.body]).animate({
                     scrollTop: $("#productdetails").offset().top-100
                 }, 400);
@@ -573,9 +579,10 @@
                     scrollTop: $("#servicedetails").offset().top-100
                 }, 400);
             });
+            $(".rd-navbar-submenu").click(function(e){
+                $(this).toggleClass("opened");
+            });
         </script>
-        <script src="js/core.min.js"></script>
-        <script src="js/script.js"></script>
 </body>
 
 </html>
