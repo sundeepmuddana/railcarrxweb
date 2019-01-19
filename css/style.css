@@ -7213,6 +7213,8 @@ button.close {
 .modal-body {
 	position: relative;
 	padding: 15px;
+	
+	
 }
 
 .modal-footer {
@@ -95361,4 +95363,7 @@ DataAnalytics Header.png.landing-section {
 	background-color: #119fca;
 	border-radius: 5px;
 	cursor:pointer;
+}
+#btnin{
+	margin-left: -54px;
 }
