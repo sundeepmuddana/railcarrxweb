@@ -95004,7 +95004,14 @@ h1, h2, h3, h4, h5, h6 {
 	.mbspace{
 		margin-top:13%;
 	}
+	.mbspace{
+		margin-top:13%;
+		}
 }
+.mbspace{
+	margin-top:8%;
+	}
+
 DataAnalytics Header.png.landing-section {
 	background-image: url('../images/Home page header.jpg');
 	background-size: cover;
@@ -95315,7 +95322,7 @@ DataAnalytics Header.png.landing-section {
 }
 
 .blog-insight-logo{
-	margin-left: -75% !important;
+	margin-left: -65% !important;
 }
 .produ:hover{
 	color:#0c6094;
@@ -95387,6 +95394,6 @@ DataAnalytics Header.png.landing-section {
 	border-radius: 5px;
 	cursor:pointer;
 }
-#btninf{
-	margin-left: -54px;
+#btnin{
+	margin-left: -44px;
 }
