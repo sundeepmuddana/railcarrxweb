@@ -95341,6 +95341,11 @@ DataAnalytics Header.png.landing-section {
 		margin-top: 20%;
 	}
 }
+/* @media(min-width:1400px){
+	.row-adj{
+		margin-top: 3%;
+	}
+} */
 .form-siz{
 	width:40%;
 }
