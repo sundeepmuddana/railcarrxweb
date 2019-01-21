@@ -95319,3 +95319,8 @@ DataAnalytics Header.png.landing-section {
 #listdro{
 	font-weight: 900;
 }
+@media(max-width:1600){
+	.row-adj{
+		margin-top: 20%;
+	}
+}
