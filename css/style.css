@@ -9896,6 +9896,7 @@ html.lt-ie-10 .range > [class*="cell-lg-preffix-"] {
 	.text-xs-normal {
 		white-space: normal;
 	}
+
 }
 
 @media (min-width: 768px) {
@@ -94991,7 +94992,23 @@ h1, h2, h3, h4, h5, h6 {
     background-image: url('../images/Home page header.png');
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position:center;
 }
+@media (min-width:1900px) {
+    .landing-section:before {
+		height:768px;
+	}
+	.Home-Banner.overlay:before {
+		height:768px;
+	}
+	.mbspace{
+		margin-top:13%;
+		}
+}
+.mbspace{
+	margin-top:8%;
+	}
+
 DataAnalytics Header.png.landing-section {
 	background-image: url('../images/Home page header.jpg');
 	background-size: cover;
@@ -95335,6 +95352,16 @@ DataAnalytics Header.png.landing-section {
 #listdro{
 	font-weight: 900;
 }
+/* @media(max-width:1600px){
+	.rowjust{
+		margin-top: 20%;
+	}
+}
+ @media(min-width:1400px){
+	.rowjust{
+		margin-top: 8%;
+	}
+}  */
 .form-siz{
 	width:40%;
 }
