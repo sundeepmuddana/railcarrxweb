@@ -9896,6 +9896,7 @@ html.lt-ie-10 .range > [class*="cell-lg-preffix-"] {
 	.text-xs-normal {
 		white-space: normal;
 	}
+
 }
 
 @media (min-width: 768px) {
@@ -95336,7 +95337,7 @@ DataAnalytics Header.png.landing-section {
 	font-weight: 900;
 }
 @media(max-width:1600){
-	.row-adj{
+	.row-adjustments{
 		margin-top: 20%;
 	}
 }
