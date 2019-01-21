@@ -95335,13 +95335,11 @@ DataAnalytics Header.png.landing-section {
 #listdro{
 	font-weight: 900;
 }
-<<<<<<< HEAD
 @media(max-width:1600){
 	.row-adj{
 		margin-top: 20%;
 	}
 }
-=======
 .form-siz{
 	width:40%;
 }
@@ -95374,4 +95372,3 @@ DataAnalytics Header.png.landing-section {
 #btninf{
 	margin-left: -54px;
 }
->>>>>>> 9eec348328fd518e07859c27a9be0ac71419c115
