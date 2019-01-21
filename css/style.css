@@ -95336,7 +95336,7 @@ DataAnalytics Header.png.landing-section {
 #listdro{
 	font-weight: 900;
 }
-@media(max-width:1600){
+@media(max-width:1600px){
 	.row-adjustments{
 		margin-top: 20%;
 	}
