@@ -95337,8 +95337,8 @@ DataAnalytics Header.png.landing-section {
 	font-weight: 900;
 }
 @media(max-width:1600){
-	.row-adj{
-		margin-top: 22%;
+	.row-adjustments{
+		margin-top: 20%;
 	}
 }
 .form-siz{
