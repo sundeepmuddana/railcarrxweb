@@ -94993,6 +94993,14 @@ h1, h2, h3, h4, h5, h6 {
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+@media (min-width:1900px) {
+    .landing-section:before {
+		height:768px;
+	}
+	.Home-Banner.overlay:before {
+		height:768px;
+	}
+}
 DataAnalytics Header.png.landing-section {
 	background-image: url('../images/Home page header.jpg');
 	background-size: cover;
@@ -95336,7 +95344,7 @@ DataAnalytics Header.png.landing-section {
 #listdro{
 	font-weight: 900;
 }
-@media(max-width:1600px){
+/* @media(max-width:1600px){
 	.rowjust{
 		margin-top: 20%;
 	}
@@ -95345,7 +95353,7 @@ DataAnalytics Header.png.landing-section {
 	.rowjust{
 		margin-top: 8%;
 	}
-} 
+}  */
 .form-siz{
 	width:40%;
 }
