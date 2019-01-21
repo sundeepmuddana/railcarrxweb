@@ -94992,13 +94992,17 @@ h1, h2, h3, h4, h5, h6 {
     background-image: url('../images/Home page header.png');
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position:center;
 }
 @media (min-width:1900px) {
     .landing-section:before {
-		height:768px;
+		height:778px;
 	}
 	.Home-Banner.overlay:before {
-		height:768px;
+		height:778px;
+	}
+	.mbspace{
+		margin-top:13%;
 	}
 }
 DataAnalytics Header.png.landing-section {
