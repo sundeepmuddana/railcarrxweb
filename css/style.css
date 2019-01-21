@@ -95337,15 +95337,15 @@ DataAnalytics Header.png.landing-section {
 	font-weight: 900;
 }
 @media(max-width:1600px){
-	.row-adjustments{
+	.rowjust{
 		margin-top: 20%;
 	}
 }
-/* @media(min-width:1400px){
-	.row-adj{
-		margin-top: 3%;
+ @media(min-width:1400px){
+	.rowjust{
+		margin-top: 8%;
 	}
-} */
+} 
 .form-siz{
 	width:40%;
 }
