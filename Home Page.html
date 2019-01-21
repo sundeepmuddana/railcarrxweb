@@ -88,7 +88,7 @@
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="Aboutus.html">
+                                                <a href="about-us.html">
                                                     <span class="text-middle" style="color:  black;">About us</span>
                                                 </a>
                                             </li>
@@ -179,7 +179,7 @@
                     </h1>
                 <div class="product-service-wrap row">
                     <div class="products-list col-lg-3">
-                        <a href="#" class="products-btn">Products</a>
+                        <a href="#" class="products-btn" id="btnprouctsforweb">Products</a>
                         <ul>
                             <li><a class="produ" href="Product_RMS.html">Repair Shops</a></li>
                             <li><a class="produ" href="Product_CRB.html">Railroads</a></li>
@@ -222,7 +222,7 @@
                             </div>
                             <p class="offset-top-10 a">Streamlined and Feature-rich Railcar
                                 <br> Repair Management System</p>
-                                <a href="Product_RMS.html" target="_blank">
+                                <a href="Product_RMS.html">
                             <button class="btn-learn" style="margin-top:2%;">Learn more</button>
                             </a>
                         </a>
@@ -236,7 +236,7 @@
                                 <h4 class="caption text-regular" style="font-size: 18px;font-weight: bold;">For Railroads</h4>
                             </div>
                             <p class="offset-top-10 a">Comprehensive CRB System Exclusively for Railroad Repair Shops</p>
-                            <a href="Product_CRB.html" target="_blank">
+                            <a href="Product_CRB.html">
                             <button class="btn-learn" ;  style="margin-top:2%">Learn more</button>
                         </a>
 
@@ -252,7 +252,7 @@
                             </div>
                             <p class="offset-top-10 a">Optimize Railcar Fleet Maintenance
                                 <br> and Reduce Repair Costs </p>
-                                <a href="Product_Insight.html" target="_blank">
+                                <a href="Product_Insight.html">
                             <button class="btn-learn" style="margin-top:2%">Learn More</button>
                             </a>
                         </a>
@@ -422,7 +422,7 @@
                                 <div class="blog-grid">
                                     <img src="./images/blog/Performance Report 2018.png" style="width:100%;">
                                 </div>
-                                <a href="Performance Report 2018.html" class="desc">
+                                <a href="crb-performance-report-2018.html" class="desc">
                                     <div class="desc-grid" style="width:85%; float:left;">
                                         <p id="bolgfont" style="text-align: -webkit-auto;">2018 Performance Report <br> RailcarRx Billing Systems
                                         </p>
@@ -436,7 +436,7 @@
                                 <div class="blog-grid">
                                     <img src="./images/blog/MLPB.png" style="width:100%;">
                                 </div>
-                                <a href="Whitepaper MLPB.html" class="desc">
+                                <a href="whitepaper-mlpb.html" class="desc">
                                     <div class="desc-grid" style="width:85%; float:left;">
                                         <p id="bolgfont" style="text-align: -webkit-auto;">Whitepaper: Decoding Upcoming 
                                             <br>
@@ -453,7 +453,7 @@
                                 <div class="blog-grid">
                                     <img src="./images/blog/Webinar 1213.png" style="width:100%;">
                                 </div>
-                                <a href="Webinar 121318_Accelerate Shop Growth.html" class="desc">
+                                <a href="webinar-accelerate-shop-growth.html" class="desc">
                                     <div class="desc-grid" style="width:85%; float:left;">
                                         <p id="bolgfont" style="text-align: -webkit-auto;">Accelerate Your Shop's Growth
                                             <br>Car Owners' Insights into Shop Selection</p>
@@ -477,9 +477,15 @@
                 <p class="small text-darker" style="padding:2% 0px;">RailcarRx &copy;
                     <span class="copyright-year"></span>
                     <a href="privacy.html" style="color: #9f472a;">Privacy Policy</a>
+                    <!--social share buttons-->
+                    <span class="social-footer">
+                        <a href="#" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    </span>
                 </p>
                 
             </div>
+            
         </footer>
         </div>
         <!-- Global RD Mailform Output-->
@@ -520,12 +526,11 @@
             </div>
         </div>
         <!-- JavaScript-->
+        
         <script src="js/core.min.js"></script>
         <script src="js/script.js"></script>
-        <script>
-            $().click(function() {
-
-                })
+        <script type="text/javascript">
+            
                 // $(".butmain").css("box-shadow","0 20px 25px 5px rgba(0,0,0,0.5) !important;");
             function openPage(pageName, elmnt, image) {
                 $(".button12").removeClass("tabActive");
@@ -561,21 +566,23 @@
                 //elmnt.style.backgroundColor = image;
 
             }
+
             // Get the element with id="defaultOpen" and click on it
             document.getElementById("defaultOpen");
-            $(".products-btn").click(function() {
+            $("#btnprouctsforweb").click(function() {
                 $([document.documentElement, document.body]).animate({
                     scrollTop: $("#productdetails").offset().top-100
-                }, 2000);
+                }, 400);
             });
             $(".services-btn").click(function() {
                 $([document.documentElement, document.body]).animate({
                     scrollTop: $("#servicedetails").offset().top-100
-                }, 2000);
+                }, 400);
+            });
+            $(".rd-navbar-submenu").click(function(e){
+                $(this).toggleClass("opened");
             });
         </script>
-        <script src="js/core.min.js"></script>
-        <script src="js/script.js"></script>
 </body>
 
 </html>
