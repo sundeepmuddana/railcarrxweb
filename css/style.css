@@ -94975,7 +94975,7 @@ h1, h2, h3, h4, h5, h6 {
 	left: 0;
 	display: block;
 	background-color: rgba(0, 0, 0, 0.7);
-/*    background-image: url('../images/Home page header.png');*/
+/*    background-image: url('../images/home_header.png');*/
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -94989,7 +94989,7 @@ h1, h2, h3, h4, h5, h6 {
 	left: 0;
 	display: block;
 	background-color: rgba(0, 0, 0, 0.7);
-    background-image: url('../images/Home page header.png');
+    background-image: url('../images/home_header.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position:center;
@@ -95010,8 +95010,8 @@ h1, h2, h3, h4, h5, h6 {
 	margin-top:8%;
 	}
 
-DataAnalytics Header.png.landing-section {
-	background-image: url('../images/Home page header.jpg');
+dataanalyticsheader.png.landing-section {
+	background-image: url('../images/home_header.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 100% !important;
