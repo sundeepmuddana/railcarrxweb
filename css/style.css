@@ -95443,3 +95443,17 @@ dataanalyticsheader.png.landing-section {
 			margin-top: 60px!important;
 		}
 	}
+	@media only screen and (width:768px){
+		.blog-insight-logo{
+			margin-left: -29% !important;
+		}
+		.verticlaal{
+			margin-left: -6% !important;
+		   margin-bottom: -22%!important;
+		}
+		.vertialll{
+			margin-left: 21% !important;
+			margin-bottom: 13%!important;
+}
+		}
+	}
