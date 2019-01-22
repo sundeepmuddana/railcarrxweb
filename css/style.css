@@ -27227,6 +27227,8 @@ html .grid-group-md > * {
 }
 
 .box-comment-classic:before {
+
+
 	top: 48px;
 	bottom: -8px;
 }
@@ -95395,3 +95397,49 @@ dataanalyticsheader.png.landing-section {
 #btnin{
 	margin-left: -44px;
 }
+.team-img{
+	float:left;
+}
+#joshlopy{
+	margin-top: 3%;
+ margin-left: -240px;
+}
+
+
+/* @media (max-width: 979px) and (min-width: 768px){
+	.quote-img{
+		margin-left:36%;
+	}
+} */
+@media  (max-width:480px) {
+
+    .img-circle{
+		margin-left:36% !important;
+	}
+	.text-italic{
+		text-align: center!important;
+		margin-left: 13% !important;
+}
+	}
+/* 
+	@media only screen and (min-width: 768px) and (max-width: 1024px) {
+		.text-picton-blue{
+		vertical-align: center;
+		}
+	} */
+	@media  (max-width:480px) {
+	.verticlaal{
+		text-align: start;
+	margin-bottom: -47px;
+	margin-top:2%!important;
+	margin-left: -6%!important;
+	}
+	.vertialll{
+		margin-left:12% !important;
+	}
+	} 
+	@media(min-width:1024px) {
+		.videohih{
+			margin-top: 60px!important;
+		}
+	}
