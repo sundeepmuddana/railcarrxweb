@@ -95456,4 +95456,44 @@ dataanalyticsheader.png.landing-section {
 			margin-bottom: 13%!important;
 }
 		}
+
+
+	/* .vc_figure{
+		float: left;
+	} 
+	*/
+	
+	.not_found h2 {
+		float: left;
+		width: 100%;
+		text-align: center;
+		font-size: 230px!important;
+		color: #eee;
+		line-height: 200px;
+		margin-top: 8%;
 	}
+
+	.not_found .search_field  {
+		display: block;
+		float: left;
+		margin-top: 40px;
+		width: 400px;
+		position: relative;
+		left: 50%;
+		margin-left: -79px;
+		margin-bottom:6%;
+
+	}
+	.seoa:hover{
+		background-color: red;
+	}
+	/* .btn-bt{
+		display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 50px;
+    z-index: 99999999;
+}
+	 */
+	
