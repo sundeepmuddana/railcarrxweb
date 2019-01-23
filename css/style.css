@@ -95480,20 +95480,54 @@ dataanalyticsheader.png.landing-section {
 		width: 400px;
 		position: relative;
 		left: 50%;
-		margin-left: -79px;
+		margin-left: -180px;
 		margin-bottom:6%;
 
 	}
-	.seoa:hover{
-		background-color: red;
-	}
-	/* .btn-bt{
-		display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 50px;
-    z-index: 99999999;
-}
-	 */
 	
+	
+	
+	 * {
+		box-sizing: border-box;
+	  }
+	  
+	  form.example input[type=text] {
+		padding: 10px;
+		font-size: 17px;
+		border: 1px solid grey;
+		float: left;
+		width: 60%;
+		background: #f1f1f1;
+	  }
+	  
+	  form.example button {
+		float: left;
+		width: 16%;
+		padding: 10px;
+		background: white;
+		color: white;
+		font-size: 17px;
+		border: 1px solid grey;
+		border-left: none;
+		cursor: pointer;
+	  }
+	  
+	  form.example button:hover {
+		background:orangered;
+	  }
+	  
+	  form.example::after {
+		content: "";
+		clear: both;
+		display: table;
+	  }
+	  @media(max-width:480px){
+		  .not_found h2{
+			  font-size:180px!important;
+		  }
+		  form.example input[type=text] {
+			  width:40%;
+			  margin-left: 63px;
+		  }
+
+	  }
